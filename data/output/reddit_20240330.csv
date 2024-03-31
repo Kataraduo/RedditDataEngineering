@@ -1,0 +1,66 @@
+id,title,selftext,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1brk50d,Where are the Junior Level Data Scientist Jobs?,"When I search for data type jobs on Indeed, I see analyst level jobs, and then  senior, lead, mostly director data scientist jobs. I hardly ever see Junior level jobs or even ""Data Scientist"" as a job title without a ""Director"" or ""Vice President"" attached. As you can imagine, this makes jumping from analyst to data scientist very difficult despite being qualified (MS stats, 7 years in various, increasingly senior analyst roles). Where are these roles?",85,85,son_of_tv_c,2024-03-30 15:13:02,https://www.reddit.com/r/datascience/comments/1brk50d/where_are_the_junior_level_data_scientist_jobs/,False,False,False,False
+1br7ri1,What's your tooling look like?,"Those of you who work with ton of data i.e. TB of data and do metrics development to ML modeling, what does your tooling look like? I mean what tool/tool combination do you use to retrieve, analyze data, develop models etc. 
+
+My tooling combination has been: Oracle + Python + GitHub +couple of Linux boxes which served well in my last company with no cloud or no TB size data. Recently moved to a new cash rich company that seems like a bit of wild West in terms of tooling: data bricks, big query, AWS, Posit everything is used in some way or other. So, trying to find the best set up. ",28,14,Difficult-Big-3890,2024-03-30 03:17:21,https://www.reddit.com/r/datascience/comments/1br7ri1/whats_your_tooling_look_like/,False,False,False,False
+1br7irg,What was your onboarding like and what should a proper onboarding look like?,"I am the first data analyst at my non-profit and I was pretty much thrown into immediate, priority tasks with very little explanation of what the non-profit's processes are, what fields are used, what these fields actually mean. They also hired me knowing that I was new to their domain but basically left me to play telephone for the first several months as I tried to fill data requests, understand what was where or what was even possible, and verify its quality and accuracy. It didn't help that the person who interviewed me and was suppose to be guiding me quit before I even started, and that person's boss quit a month after I joined. I'm quitting next month and wanted to hear what others onboarding experiences are, what a proper onboarding should look like for a DA/DS and also test to see if these questions make sense to ask when I start interviewing for a new job, to avoid frantic organizations.
+
+* How standardized is your current data process? (as in, is there a database already set up, is there a dictionary/glossary/schema to refer to, how frequently are metrics changing?)
+* How are you currently fulfilling your data needs? (as in, are there dashboards already set in place, is it mostly ad-hoc)
+* Do you have any dedicated engineers/architects or anyone dedicated to actual database and pipeline management?",21,6,lemonbottles_89,2024-03-30 03:04:33,https://www.reddit.com/r/datascience/comments/1br7irg/what_was_your_onboarding_like_and_what_should_a/,False,False,False,False
+1bro6ep,How do I know when to stop hyper parameter tuning and try something else?,"Edit: its for deep learning just to clarify; im referencing stuff like messing around with a CNN's architecture, activation, optimizer, learning rate, regularizers, etc
+
+I feel like i understand the math and algorithm behind model architectures quite well; i take care to preprocess and clean data, but in practice i struggle to get good performance. I always just end up manually tuning hyper parameters or using gridsearch for days or weeks with minimal improvement in erformance. 
+
+I guess my question is: how do I know if i just need to keep going until i find some good combination of hyper params or if i just need to be trying something else?",17,24,WhiteRaven_M,2024-03-30 18:07:24,https://www.reddit.com/r/datascience/comments/1bro6ep/how_do_i_know_when_to_stop_hyper_parameter_tuning/,False,False,False,False
+1brkmsu,What to spend company's £1500 annual training budget on?,"I've been working as a data analyst at a fintech for 9 months now, although my master's degree is in data science\*
+
+Company offers a £1500 annual budget to be spent on anything related to upskilling. What course would you recommend I spent it on? I am comfortable with data science theory and ML projects in a vacuum (AKA have never deployed into production) but have very little-to-no knowledge in specialised areas (NLP, Generative AI, LLMs etc.)
+
+I'm pushing to introduce some predictive analytics and ML into my role but will probably need to do some sort of proof of concept to sell it to stakeholders because all of them are very non-technical.
+
+\*(graduated 5 years ago, had an illness which prevented me from working post-graduation).",20,10,alano__,2024-03-30 15:34:44,https://www.reddit.com/r/datascience/comments/1brkmsu/what_to_spend_companys_1500_annual_training/,False,False,False,False
+1br5b8e,SVD Did Not converge in Linear Least Squares Error ,"Was working on a project and was trying to make a scatterplot with a trend line. usually always used R for simplicity in Linear regression problems.  
+
+Worked in Regression extensively for first time in Python. Used numpy polyfit for the problem.  I performed a left join and joined 2 tables here 
+
+What does it mean when SVD does not converge in Linear Least Squares... 
+
+Im aware how Singular Value Decomposition is used in PCA, Linear Regression and how it works. 
+What does it signify?  why it happens. ? Never faced this issue before. ",9,18,Mayukhsen1301,2024-03-30 01:16:58,https://www.reddit.com/r/datascience/comments/1br5b8e/svd_did_not_converge_in_linear_least_squares_error/,False,False,False,False
+1brlkvl,Basic modelling question,"Hi All,
+
+I am working on subscription data and i need to find whether a particular feature has an impact on revenue.
+
+&#x200B;
+
+The data looks like this (there are more features but for simplicity only a few features are presented):
+
+&#x200B;
+
+|id|year|month|rev|country|age of account (months)|
+|:-|:-|:-|:-|:-|:-|
+|1|2023|1|10|US|6|
+|1|2023|2|10|US|7|
+|2|2023|1|5|CAN|12|
+|2|2023|2|5|CAN|13|
+
+&#x200B;
+
+Given the above data, can I fit a model with y = rev and x = other features?
+
+I ask because it seems monthly revenue would be the same for the account unless they cancel. Will that be an issue for any model or do I have to engineer a cumulative revenue feature per account and use that as y? or is this approach completely wrong?
+
+The idea here is that once I have the model, I can then get the feature importance using PDP plots.
+
+Thank you
+
+&#x200B;",4,11,adit07,2024-03-30 16:15:10,https://www.reddit.com/r/datascience/comments/1brlkvl/basic_modelling_question/,False,False,False,False
+1br6iip,Entity based vs aspect based sentiment analysis?,"Say I have a set of product reviews. For example ""the product was too big but the material was good."" I want an approach that can extract sentiment like: fit=negative, quality=positive. What's a good approach that can do this? I'm seeing entity sentiment on Google cloud. Does it do the same thing as ABSA on hugging face for example? ",4,11,Cyberex8775,2024-03-30 02:14:05,https://www.reddit.com/r/datascience/comments/1br6iip/entity_based_vs_aspect_based_sentiment_analysis/,False,False,False,False
+1brmr5o,"Are there any DA/DS-adjacent roles (other than dev roles requiring a lot of Leetcode) that are in-demand, preferably low-code ones?","Hello, I've been working in educational technology for over a decade and have a useless MSDS (graduated December 2022). I desperately need a new career. What can I learn that my MSDS might help me in, something that I could combine it with? Scrum master? I've read that RPA is dead, is that right? Anything along those lines?
+
+I am really good at things like project management, communicating with people, understanding client needs and putting them into writing, making business use case arguments, leading teams, writing and maintaining documentation, and related soft skills. I understand what is going on with different pieces of technology at a higher level but am not great at the nitty-gritty of it. I am fine with basic Python/SQL (and can keep learning programming in general to improve) but I hate Leetcode and really don't want to have to learn it. I do not see myself as a hardcore programmer who's going to learn 800 hard Leetcode questions...and I don't think anyone else does, either. lol
+
+Of course I know viz tools as well like Tableau, PowerBI, Looker etc. 
+
+Looking for something for which there is actually a demand, so no entry level data analysis. Am also okay if it's not super related to DA/DS. I just do not want to waste any more time the way I did with the MSDS if at all possible. Thanks!",3,17,throwaway_ghost_122,2024-03-30 17:06:16,https://www.reddit.com/r/datascience/comments/1brmr5o/are_there_any_dadsadjacent_roles_other_than_dev/,False,False,False,False

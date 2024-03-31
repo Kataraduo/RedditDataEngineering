@@ -11,8 +11,8 @@ from pipelines.aws_s3_pipeline import upload_s3_pipeline
 from pipelines.reddit_pipeline import reddit_pipeline
 
 default_args = {
-    'owner': 'Yusuf Ganiyu',
-    'start_date': datetime(2023, 10, 22)
+    'owner': 'Katara Xie',
+    'start_date': datetime(2024, 1, 1)
 }
 
 file_postfix = datetime.now().strftime("%Y%m%d")
@@ -20,7 +20,7 @@ file_postfix = datetime.now().strftime("%Y%m%d")
 dag = DAG(
     dag_id='etl_reddit_pipeline',
     default_args=default_args,
-    schedule_interval='@daily',
+    schedule='@daily',
     catchup=False,
     tags=['reddit', 'etl', 'pipeline']
 )
@@ -31,7 +31,7 @@ extract = PythonOperator(
     python_callable=reddit_pipeline,
     op_kwargs={
         'file_name': f'reddit_{file_postfix}',
-        'subreddit': 'dataengineering',
+        'subreddit': 'datascience',
         'time_filter': 'day',
         'limit': 100
     },
