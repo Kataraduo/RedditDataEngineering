@@ -1,0 +1,50 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1c0bof0,why is all dev tool innovation in the AI/ML space focused on the least time consuming stuff?,"Every DS, DE, and MLE I speak to (including myself) spends a majority of their time focused on data prep. Even though this is taking up 70-90% of everyone's time all the investment and innovation focus seems to be on training, fine-tuning, and on-demand inference. Why? Is data prep not sexy?
+
+It is imperative that high quality samples are being used for training, shit data is going to create a shit model. I feel like there should be more focus on making feature selection, data cleansing, and preprocessing less cumbersome, any thoughts?",78,49,Ok_Post_149,2024-04-10 03:22:01,https://www.reddit.com/r/datascience/comments/1c0bof0/why_is_all_dev_tool_innovation_in_the_aiml_space/,0,False,False,False,False
+1c00y65,Has anyone taken the Master of Applied Data Science from the University of Michigan on Coursera?,"What kind of things can I do to prepare for it? Would you recommend it to someone wanting to enter the data science field? Any advice helps, thanks!",26,21,claudedeyarmond,2024-04-09 19:32:51,https://www.reddit.com/r/datascience/comments/1c00y65/has_anyone_taken_the_master_of_applied_data/,0,False,False,False,False
+1c02l55,How much does degree title matter vs skills and classes taken for an MS?,"I'm (an American) in a biostatistics MS program, but I have the opportunity to finish early by a summer and a fall semester (7 months) with my departments online ""applied statistics and data science"" MS. The research that I've been apart of has mostly been data cleaning and building an R package to submit to CRAN. I've basically finished the core classes for our PhD, but I'm more interested in math heavy software development than original research. Tech skills: Python, R, SAS, and I'm rusty on PHP, JS/React, SQL, which I used years ago for past projects.
+
+The program isn't placing me in debt. I have research funding, my Post 9-11 GI Bill covers housing costs, and I'm still a reservist in the military, which offers a 401k (TSP) and heavily discounted insurance
+
+Edit: I'm pretty ignorant of how the titles would be viewed when screened by HR/software/and particular industries. Eg I've heard it's easier to land a traditional biostatistics role with a degree in (bio)statistics vs data science",19,16,varwave,2024-04-09 20:39:32,https://www.reddit.com/r/datascience/comments/1c02l55/how_much_does_degree_title_matter_vs_skills_and/,0,False,False,False,False
+1c05xju,Is anyone familiar with the state of the academic job market for data science/ML/statistics?,"I frequently peruse [r/AskAcademia](https://www.reddit.com/r/AskAcademia/) and they always talk about how getting a tenure-track job these days is a pipe dream. They frequently cite some statistic (not sure where it's from) that 2% of graduating PhD's get a tenure-track job. They also say that even when filtered to just STEM fields, this figure is somewhere around 9-10%.
+
+I'm in the early stages of a PhD in statistics with research focus in ML at a fairly reputable program. My professors have all told me that getting a tenure-track academic job should be very doable, since I have no restrictions as to where I can/can't live and have a good advisor who I'm doing productive research with. They always say that because so many students in the field take higher-paying jobs in industry, there's a little bit less competition for those who want to get into academia. Which does make sense. But then I see the doomsday advice in [r/AskAcademia](https://www.reddit.com/r/AskAcademia/), and wonder if my professors are out of touch and/or not being honest with me about the state of the academic job market.
+
+If anyone has recently been on the academic job market in data science/ML/statistics/etc., I'd love to know what your experience was like.",11,11,LordShuckle97,2024-04-09 22:54:59,https://www.reddit.com/r/datascience/comments/1c05xju/is_anyone_familiar_with_the_state_of_the_academic/,0,False,False,False,False
+1bzzal7,What kind of challenges are remaining in machine learning??,"To rephrase, I mean to ask that there are pretrained models for all the tasks like Computer Vision and Natural Language processing. With the advent of Generative AI I feel like most of the automation tasks have been solved. What other innovative uses cases can you guys think of? 
+
+Maybe some help with some product combining these ML models?",7,23,thecorporateboss,2024-04-09 18:25:14,https://www.reddit.com/r/datascience/comments/1bzzal7/what_kind_of_challenges_are_remaining_in_machine/,0,False,False,False,False
+1c0btox,(Deep Learning vs Data scientist) Need some advice,"I'm an undergrad student (mechanical engg) learning data science  through online courses and resources, I need some advice for my career.   
+
+I'm able to see 2 types of job postings, one is a traditional data  science role, others are also data science roles but requiring deep  learning skills.   
+
+I have seen, for data science roles requiring deep learning, usually prefer people from PhDs or higher educations.   
+
+So my question is should I even target or try to get into these  roles requiring deep learning skills because I doubt if I can compete  with PhD students for such roles.   
+
+Or should I stick with traditional data science and data analyst roles.   ",6,14,Medium_Alternative50,2024-04-10 03:29:44,https://www.reddit.com/r/datascience/comments/1c0btox/deep_learning_vs_data_scientist_need_some_advice/,0,False,False,False,False
+1c07fg4,Any leads on climate change specific/renewable or sustainable energy companies,"
+Hey folks. I would want to apply my skillset in the domain of analytics/ data sciences in companies that are working in the field of climate change or other environment related domain. There is an unawareness about such companies. Can people comment here if you know of one? Thanks. 
+
+#Climatechange #DataScience #Analytics",3,4,mohiit402,2024-04-09 23:59:51,https://www.reddit.com/r/datascience/comments/1c07fg4/any_leads_on_climate_change_specificrenewable_or/,0,False,False,False,False
+1c0exqh,Time series train test split,"Hi all,
+Suppose I have 6 months of data at weekly level (24 data points) and I want to forecast for the next two weeks.
+
+If Im doing a train test split keeping let’s say 4 data points for validation. With this setting suppose i get a good arima or ets model.
+
+My question is, at the time of forecasting, I’m actually predicting for the next 6 weeks then (4 in validation, 2 in prediction). Time series models become less reliable the further into the future you predict. 
+
+In such a scenario, is train test split for time series something we should be trying out? 
+
+PS: the time horizon and data are just to explain my thoughts. ",6,4,Revolutionary_Egg744,2024-04-10 06:30:10,https://www.reddit.com/r/datascience/comments/1c0exqh/time_series_train_test_split/,0,False,False,False,False
+1c02doz,Desperately need feedback to land a job in ML/NLP asap,"People of datascience, I'm looking for some feedback on my  resume. I'm in the second year of my university (online university)  while I'm full-time self studying Machine Learning with a heavy focus on  natural language processing. My goal is to land a job as soon as  possible, ideally as an NLP engineer while I continue my studies and  then I plan on getting a masters degree in AI to get into academic  research.   
+
+I know that getting a job now might not be the best way to break  into academic research, rather focusing on my degree is a much better  way, however, given my life situation in general especially financial,  it's very important for me to get a full-time job and make money while I  spend next 3 years completing my bachelors degree along side.   
+
+These next 3 years I have to settle my kitchen income first before I  can move towards academic research. In these 3 years, industry  experience might help me with immigration to move to a foreign country  where I may get a better and more sophisticated job and enroll in  masters degree in some good university, or if not, then moving abroad  for studies is the second option (student visa).   
+
+I need advice on how I can plan a few months ahead so that I can  land a full-time job as soon as possible, since my current internship is  unpaid, and also because it's a startup which is not generating much  revenue as of now, I don't really think they can afford to hire me  full-time. I'm 22 living in Kuwait (middle-east), originally from  Pakistan.   
+
+Link to my resume: [https://www.dropbox.com/scl/fi/mjib8hi6hmgvxzyk0r1sm/Resume-2.pdf?rlkey=uphpp6qralzknqqapmobmw9i2&dl=0](https://www.dropbox.com/scl/fi/mjib8hi6hmgvxzyk0r1sm/Resume-2.pdf?rlkey=uphpp6qralzknqqapmobmw9i2&dl=0)",0,14,Total-Opposite-8396,2024-04-09 20:30:47,https://www.reddit.com/r/datascience/comments/1c02doz/desperately_need_feedback_to_land_a_job_in_mlnlp/,0,False,False,False,False

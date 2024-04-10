@@ -1,0 +1,41 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1bt0fkm,Am I not getting interviews because I dont have a data science portfolio?,"Im working on a bs/ms for data science and havent been having too much success finding internships. Zero interviews at all. Ill look at a posting that lists requirements like: ""knows what python is (not the snake)"", ""used excel before"", ""(preferable) has heard of statistics"" and its really demoralizing. So now im just trying to figure out whats wrong with me as an applicant.
+
+I have interesting projects in my resume: im working on a grad school project as part of a team for US army research where im building visualization dashboards and writing SQL for backend. In undergrad, I worked on finetuning a MRI neuroimages CNN for depression diagnosis.
+
+I have previous internship experience: did GenAI/Rag at a start up, building data pipelines, finetuning embedders, making flask webapp, deploying model. Product saving xyz manhours by helping people find and summarize important documents etc.
+
+Problem is i cant really put up these projects in my portfolio because of NDAs and I dont really do side projects. So because of that i dont have a web portfolio/git portfolio. 
+
+Is that the issue? Just really bummed out about the hob search and trying to channel that into improving my profile :/",37,40,WhiteRaven_M,2024-04-01 10:44:00,https://www.reddit.com/r/datascience/comments/1bt0fkm/am_i_not_getting_interviews_because_i_dont_have_a/,0,False,False,False,False
+1bsuvbx,"I’m double majoring in mathematics and computer science, considering doing a minor in the business field. Which would be the best for data science jobs?",Was talking to family members who are currently in data analytic positions and they said a business background would be very beneficial for data science. Which ones would be the best?,34,56,Ok-Cucumber-3932,2024-04-01 04:45:51,https://www.reddit.com/r/datascience/comments/1bsuvbx/im_double_majoring_in_mathematics_and_computer/,0,False,False,False,False
+1bt850j,How did you prepare for interviews when going from Junior to mid level role?,"Hi! I am a Jr. Data Scientist at a F50 company with 4 YOE. Majority of my experience is in post deployed model maintenance and monitoring. I want to start preparing for interviews but feeling kinda lost as to where to start. Should I jump to leetcode or brush up my statistics? It’s kinda daunting since there’s so many different types of DS roles and all of them might involve different type/level of preparation.
+
+How did you go about preparing for interviews?
+
+Thanks.",9,7,quite--average,2024-04-01 16:23:49,https://www.reddit.com/r/datascience/comments/1bt850j/how_did_you_prepare_for_interviews_when_going/,0,False,False,False,False
+1bt1ova,What could be some of the projects that a new grad should have to showcase my skills to attract a potential hiring manager or recruiter?,"So I am trying to reach out new recruiters at job fairs for securing an interview. I want to showcase some projects that would help to get some traction. I ahve found some projects on youtube which guides you step by step but I don't want to put those on my resume. I thought about doing the kaggle competition as well but  not sure either. Could you please give me some pointers on some projects idea which I can understand and replicate on my own and become more skilled for jobs? I have 2-3 months to spare, so I have enough time do a deep dive into what is happening under the hood. Any other advice is also very welcome! Thank you all in advance!",7,8,SmartPuppyy,2024-04-01 11:52:43,https://www.reddit.com/r/datascience/comments/1bt1ova/what_could_be_some_of_the_projects_that_a_new/,0,False,False,False,False
+1bt4e1j,Univariate K-Means Clustering vs. Fixed Cluster Boundaries,"I am attempting to cluster stores based off their sales. I can either do:
+
+&#x200B;
+
+1. Univariate K-Means clustering by way of the Ckmeans.1d.dp package in R. This works perfectly fine, only 2 cons are figuring out the upper limit on K, and possibly explainability to the client.
+2. Fixed cluster boundaries. In this case, I average the sales of all stores, and create boundaries like: 50% below average, 25% below average, 25% above average, 50% above average. This is the method that has already been put in place and is what our client is familiar with (and can understand).
+
+What I am trying to determine is when is #1 more ""preferable"" to #2? ",5,1,bernful,2024-04-01 13:57:22,https://www.reddit.com/r/datascience/comments/1bt4e1j/univariate_kmeans_clustering_vs_fixed_cluster/,0,False,False,False,False
+1bta8md,I need advice about how to get a new job and what i’m even qualified or on track to do,"Sorry if this is another redundant post but I’m at a complete loss as to where I fit in. I got hired as a media analyst at a marketing company two years ago but I was on a two man (including me) data science team. I was immediately tasked with doing MMM and in between those we were working on a spot attribution model that wasn’t going anywhere. Then my boss quit and a data scientist from the parent company came to oversee the rest of the MMM we were working on. That was at about my six month mark. After that my new boss took me with him to do “real” data science. 
+
+Since moving to that dept, I’ve been using different ML methods to do different predictive tasks mostly relating to Nielsen. I do most of my work in R now but before this I was solely using Python. I have a ton of experience making dynamic SQL queries, creating and cleaning model input files, building pretty complicated programs that do all of the modeling, make useable prototypes (mostly excel) and validation. My SWE friends say I have a natural ability to code and am better at it than a lot of their coworkers. 
+
+My problem is this, I am underpaid. According to people on this subreddit maybe by as much as 60k. I’m still making an analyst salary. The other problem is that I get hit up by recruiters for basic analyst and dashboarding jobs. I’m not opposed to taking those but the pay isn’t better and due to inflation and a few other things I can’t take a pay cut and moving for the same pay seems like i’d just be setting myself back another year salary wise. The data science jobs I’ve applied for have turned me down because I don’t have experience moving data from lakes to warehouses. (I think) I know i’m good at my job. I’ve never missed a deadline and I’ve gotten two shining reviews since I’ve been here. I know if it was up to my boss he’d bring my salary inline with what I should be making. I need a realistic plan on how to fill in the blanks on my resume and what type of jobs to target. Any advice is appreciated.",2,11,boldedbowels,2024-04-01 17:42:41,https://www.reddit.com/r/datascience/comments/1bta8md/i_need_advice_about_how_to_get_a_new_job_and_what/,0,False,False,False,False
+1bsu2qi,"Weekly Entering & Transitioning - Thread 01 Apr, 2024 - 08 Apr, 2024"," 
+
+Welcome to this week's entering & transitioning thread! This thread is for any questions about getting started, studying, or transitioning into the data science field. Topics include:
+
+* Learning resources (e.g. books, tutorials, videos)
+* Traditional education (e.g. schools, degrees, electives)
+* Alternative education (e.g. online courses, bootcamps)
+* Job search questions (e.g. resumes, applying, career prospects)
+* Elementary questions (e.g. where to start, what next)
+
+While you wait for answers from the community, check out the [FAQ](https://www.reddit.com/r/datascience/wiki/frequently-asked-questions) and Resources pages on our wiki. You can also search for answers in [past weekly threads](https://www.reddit.com/r/datascience/search?q=weekly%20thread&restrict_sr=1&sort=new).",1,5,AutoModerator,2024-04-01 04:01:30,https://www.reddit.com/r/datascience/comments/1bsu2qi/weekly_entering_transitioning_thread_01_apr_2024/,1,False,False,False,True

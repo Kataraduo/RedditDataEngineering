@@ -1,0 +1,119 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1but6uu,Help with Multiple Linear Regression for product cannibalization.,"I briefly studied this in college, and chat gpt has been very helpful, but I’m completely out of my depth and could really use your help. 
+
+ We’re a master distributor that sells to all major US retailers. 
+
+I’m trying to figure out if a new product is cannibalizing the sales of a very similar product. 
+
+I’m using multiple linear regression. 
+
+Is this the wrong approach entirely?
+
+Data base: Walmart year- Week as integer (higher means more recent), Units Sold Old Product , Avg. Price of old product, Total Points of Sale of Old Product where new product has been introduced to adjust for more/less distribution, and finally, unit sales of new product. 
+
+So everything is aggregated at a weekly level, and at a product level. I’m not sure if I need to create dummy variables for the week of the year.
+
+The points of sale are also aggregated to show total points of sale per week instead of having the sales per store per week. Should I create dummy variables for this as well?
+
+I’m analyzing only the stores where the new product has been introduced. Is this wrong?
+
+I’m normalizing all of the independent variables, is this wrong? Should I normalize everything? Or nothing?
+
+My R^2 is about 15-30% which is what’s freaking me out.  I’m about to just admit defeat because the statistical “tests” chatgpt recommended all indicate linear regression just aint it bud. 
+
+The coefficients make sense (more price less sales), more points of sale more sales, more sale of new product less sale of old.
+
+My understanding is that the tests are measuring how well it’s forecasting sales, but for my case I simply need to analyze the historical relationship between the variables. Is this the right way of looking at it? 
+
+Edit: Just ran mode with no normalization and got an R2 of 51%. I think Chat Gpt started smoking something along the process that just ruined the entire code. Product doesn’t seem to be cannibalizing, seems just extremely price sensitive.",32,26,realbigflavor,2024-04-03 13:54:00,https://www.reddit.com/r/datascience/comments/1but6uu/help_with_multiple_linear_regression_for_product/,0,False,False,False,False
+1buvnuw,[Need advice]I Want to Leave MAANG a Month After Being Hired,"(Hope this is the right subreddit as many people post job-related/job-seeking questions. If not, I'm sorry, that's an honest mistake.)
+
+Hello everyone. I was recently hired by one of the big corporations, and I would appreciate advice from the community.
+
+I was offered a high-level DS manager position at one of the MAANG companies. During the hiring process, I discussed with the hiring manager that I would start as an individual contributor, focusing on helping to improve the recommendation engine. Several months later, I was supposed to transition into managing a small team. I was extremely excited, it’s MAANG, after all.
+
+However, on my very first day of the job, my manager’s peer informed me that there had been a reorg. As a result, the tasks we had initially discussed would not be happening. To make matters worse, it turned out that my manager’s planned promotion didn’t materialize, leaving no team for me to manage. I thought, “Okay, I can live with this. Worst-case scenario, I’ll transfer to another team later.”
+
+Fast forward two weeks, and I honestly hate it. The tools we use are awful. Simple tasks that would take minutes outside of big tech now take up to an hour because our small databases constantly crash under load. Even building a basic causal model becomes incredibly challenging because we can’t extract data from the database for a sufficiently long period. When I raised these concerns with my manager, their response was, “I’m not a fan of complex modeling. If you want to do that, let’s outsource it to the Data Engineering (DE) team.”
+
+What’s more, my daily work involves adding charts to dashboards and handling ad hoc requests from various stakeholders. Nobody can clearly state our long-term goals or what we’re trying to achieve. Our OKRs are DAU and Revenue, which are essentially driven by other company products (lol). The most disconcerting part is that every other Data Scientist in our part of the organization seems to be doing the same — ad-hocs, reports, and dashboards. Frankly, this doesn’t feel like DS work at all.
+
+In my previous workplace, I held the responsibility of creating models and introducing new ways to leverage data to increase our KPIs. My team was first to introduce causal modeling and ML-based user segmentation, we’ve also piloted several other things that involved shipping models to production. When I decided to leave, my employer has repeated several times that should anything go wrong, I shouldn’t hesitate and come back to working for them. I’m seriously consider this option now. By the way it wasn't a small shop, that was an international company with petabytes of data and over a billion of revenue per year. Not the MAANG level though.
+
+My current job offers better compensation, particularly if I can vest my stock options. However, during these several weeks, we’ve already experienced another reorganization (3rd or 4th in 1.5 years), making it highly unlikely that I’ll vest before the next round of layoffs.
+
+What would be the right move? To those familiar with MAANG companies, I’d appreciate your insights. Is this situation normal?",32,40,Deep-Technology-6842,2024-04-03 15:35:44,https://www.reddit.com/r/datascience/comments/1buvnuw/need_advicei_want_to_leave_maang_a_month_after/,0,False,False,False,False
+1bukjw2,Student wanting to maximise last year of study,"Hi,
+
+I'm in my final year of my BSc, major is not data analytics but my minor is. I'm learning SQL on the side, once in comfortable with that I'm going to look into python a little. What can I do to maximise my potential? I've seen people comment about portfolios, I would love any suggestions on how to wrangle that. 
+
+For context: used to live in a house truck in the woods. No smart phone or computer. Last six years I've turned life around and taught myself everything, including the tech knowledge I needed before starting university. So I am still new to some things, but I'm working really hard to make myself a decent candidate for jobs. I've got 20 years of workforce experience behind me, up to management level, so I'm not a spring chicken. ",24,14,shaktishaker,2024-04-03 05:17:42,https://www.reddit.com/r/datascience/comments/1bukjw2/student_wanting_to_maximise_last_year_of_study/,0,False,False,False,False
+1bu9lrp,"Analyzing 40 Million Hacker News Items: User Behavior, Story Scoring, and Content Trends","Hello, 
+
+I've conducted an extensive analysis of \~40 million items from Hacker News, exploring user behavior, the scoring system, and how content trends have evolved from 2006 to the present. 
+
+I've also open-sourced the code for anyone interested in the data or methodology. 
+
+Here's the link to the full analysis and code: [https://blog.osm-ai.net/2024/04/01/hn-part-1.html](https://blog.osm-ai.net/2024/04/01/hn-part-1.html)
+
+Any feedback or additional thoughts are welcome!",9,1,osm3000,2024-04-02 20:50:50,https://www.reddit.com/r/datascience/comments/1bu9lrp/analyzing_40_million_hacker_news_items_user/,0,False,False,False,False
+1bv0t1l,How many ad-hoc data requests do you all get a week?,"Pretty much title, I guess how painful is this whole process for you? 
+
+Do you all get as many data reqs as my data team did? If you do, what's your role, company size, and who are your stakeholders? How much percent of your time/overall suffering is spent on them and how do you go about fulfilling them?
+
+Curious if it's as painful for others as well.",4,13,doritos68230,2024-04-03 18:53:12,https://www.reddit.com/r/datascience/comments/1bv0t1l/how_many_adhoc_data_requests_do_you_all_get_a_week/,0,False,False,False,False
+1bub0hm,Categorical Root Cause Analysis,"Hi everyone,
+
+We're trying to solve a problem that I feel should be rather generic, and for some reason I can't seem to find good material about.
+
+So the problem goes like this: we have a certain metric that we want to maximize, within a range of 0-100%. This metric is computed as the percentage of 1s in a binary column in our dataset. All of the other columns are categorical features, with varying cardinalities. Some might have 3 possible values, some dozens or even hundreds. 
+
+I would like to perform Root Cause Analysis, so that I can tell my stakeholders ""Here's what's causing a decrease in the overall metric, go fix it"". However, all of the RCA content I find online handles numerical features, while mine are all categorical. And there's no trivial way to make them numeric, as in, there's no order applicable to their values.
+
+So what I try to do currently, is look for 'segments' in the data that are underperforming. A segment means any combination of feature values over perhaps just 1, or some, or all features. I chose to call these 'segments', if there's a well-known term for this I would love to be corrected and educated.
+
+Now, since my features may have a high cardinality, the number of segments to look through is potentially huge, so an exhaustive search is off the table.
+
+Question number 1: Is this a common problem that has a known optimal solution? An algorithm or perhaps even a library that implements it that I can just use?
+
+So here's what we did to solve this problem in our use-case, and I'd love to hear opinions or suggestions:
+
+We one-hot encode all of our data, train an XGBoost (what else...) model on the whole dataset, then use SHAP values to extract the knowledge that our model gained. We recommend to our users the feature-value pairs with the highest mean SHAP values, as the most likely culprits.
+
+To allow for some combinations to be looked at, we use our top 5 feature-value pairs as filters (one at a time), then run the same logic on each data subset. This produces 5 new top-SHAP feature-value pairs, and we do the same once again. This gives us at most 3 levels of combination. But, I worry that we might be missing other niche segments that are badly underperforming because we got to the 'niche' segments by drilling down from higher-level feature-values.
+
+Anyway, hopefully this isn't becoming too confusing. I'd love to hear thoughts or perhaps some of you have faced similar challenges in the past and have some recommendations.
+
+Thanks!",4,3,Impossible-Belt8608,2024-04-02 21:49:19,https://www.reddit.com/r/datascience/comments/1bub0hm/categorical_root_cause_analysis/,0,False,False,False,False
+1bv21ju,Data science project management tools,"Hi everyone :) I've been tasked with finding a user-friendly tool for project management and I am   
+ struggling to choose one. We are a team of 7 data scientists/analysts and I have not formally managed a team before.  
+
+
+I've been considering Jira, Trello and Microsoft teams planner but since I haven't used either before, I'm not sure which one to prioritize. It does not have to be one of these either. 
+
+&#x200B;
+
+Ideally, we want something simple, quick and SAFE because we work with a lot of sensitive data. Could you please share your experience on managing projects and what has worked best for you and your team? 
+
+&#x200B;
+
+Thank you!",3,2,Raspberrry314,2024-04-03 19:39:28,https://www.reddit.com/r/datascience/comments/1bv21ju/data_science_project_management_tools/,1,False,False,False,False
+1bv13l1,fundamentals of LLM: A story from history of GPTs to the future,,1,0,shyamcody,2024-04-03 19:03:58,https://shyambhu20.blogspot.com/2024/04/llm%20basics%20history%20of%20GPT%20n%20chatgpt%20to%20LLMs.html,1,False,False,False,False
+1bv02xw,What do top companies test Data Analysts on (versus Data Science)?,"Unlike data scientist interviews full of stats and possibly machine learning, I feel like I don't know how to prep for data analyst interviews. Before moving on to DS prep (I'm on the verge of what some firms would accept as DS, and what most would be just DA), I wanted to make sure I'm absolutely golden in all aspects of a DA interview.
+
+Database wise, I've for the R in CRUD down from every day work. I can work on the C, U, D but not really sure where to focus my efforts. I've also got normalization and keys on my list, but besides that, is there anything more to do here?
+
+Then, I'll do some leetcode as a show of general programming ability. I use Python somewhat frequently, but don't have any major projects under my belt.
+
+Besides those two, what else do top data analysts get tested on during interviews? It's hard to test dashboarding skills so not sure what I need to do in regards to that.",2,1,fittyfive9,2024-04-03 18:26:03,https://www.reddit.com/r/datascience/comments/1bv02xw/what_do_top_companies_test_data_analysts_on/,0,False,False,False,False
+1bua71x,Newbie Seeking DS Project Ideas,"Hey everyone,
+
+**Fresh data science learner here!** Looking to jumpstart my portfolio with impactful projects (EDA, ML, anything relevant!). Hit me with your best ideas!
+
+Thanks!  
+
+
+`For mods: Apology if this post is against the rules. Let me know, I'd be careful from next time.`",1,8,Aftabby,2024-04-02 21:16:23,https://www.reddit.com/r/datascience/comments/1bua71x/newbie_seeking_ds_project_ideas/,0,False,False,False,False
+1bugbq3,Interesting Scrapable Publicly available ML database that Can be retrieved via APIs ,"Looking for some tabular data where i can apply ML techniques .  And I need to scrape ot off using API calls or something similar. I cant use static data ..  For a class project. 
+
+PS : Dont provide data where Time Series is applicable. I found plenty of  such data. ",0,10,Mayukhsen1301,2024-04-03 01:39:19,https://www.reddit.com/r/datascience/comments/1bugbq3/interesting_scrapable_publicly_available_ml/,0,False,False,False,False

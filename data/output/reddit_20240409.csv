@@ -1,0 +1,75 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1bz564f,[Discussion] My boss asked me to give a presentation about - AI for data-science,"I'm a data-scientist at a small company (around 30 devs and 7 data-scientists, plus sales, marketing, management etc.). Our job is mainly classic tabular data-science stuff with a bit of geolocation data. Lots of statistics and some ML pipelines model training.
+
+After a little talk we had about using ChatGPT and Github Copilot my boss (the head of the data-science team) decided that in order to make sure that we are not missing useful tool and in order not to stay behind he wants me (as the one with a Ph.D. in the group I guess) to make a little research about what possibilities does AI tools bring to the data-science role and I should present my finding and insights in a month from now.
+
+From what I've seen in my field so far LLMs are way better at NLP tasks and when dealing with tabular data and plain statistics they tend to be less reliable to say the least. Still, on such a fast evolving area I might be missing something. Besides that, as I said, those gaps might get bridged sooner or later and so it feels like a good practice to stay updated even if the SOTA is still immature.
+
+So - what is your take? What tools other than using ChatGPT and Copilot to generate python code should I look into? Are there any relevant talks, courses, notebooks, or projects that you would recommend? Additionally, if you have any hands-on project ideas that could help our team experience these tools firsthand, I'd love to hear them. 
+
+Any idea, link, tip or resource will be helpful.  
+Thanks :)",75,27,meni_s,2024-04-08 18:20:50,https://www.reddit.com/r/datascience/comments/1bz564f/discussion_my_boss_asked_me_to_give_a/,0,False,False,False,False
+1bz20r9,Three Practical Use Cases of Machine Learning and Digital Twins in Clinical Research and Care,"Hi all, thought my most recent Substack post would be of interest to those working in the healthcare/life sciences space. I talk about how we can use big data and machine learning to bring more personalized care through what’s called “digital twins.” Essentially, it uses historical data to look at the outcomes of people who share similar characteristics to you. Using Alzheimer’s Disease as a motivating example, there’s three use-cases for digital twins I discuss in my post:
+
+1. Reducing the size of randomized trial control arms through the prediction of treatment arm outcomes via their digital twins. The company with the most work on this space that I know of is [Unlearn.ai](https://www.unlearn.ai/). This would ideally save recruitment time and costs that scale per patient and per site.
+2. Using digital twins to calculate a prognostic score of disease progression and, in a trial, recruiting only those who are more likely to rapidly progress. In the literature, this is often called “enrichment.” When people progress at a faster rate, we can run the trial for less time while still having a good chance to observe a treatment effect if it’s there. 
+3. Using digital twins to help inform the delivery of precision medicine in routine care (e.g. at the doctor’s office). Crucially, this system should be tested in randomized trials versus standard of care.
+
+If any of these topics interest you, [check out the post here](https://open.substack.com/pub/mlinhealthcare/p/leveraging-machine-learning-using?r=7bxky&utm_campaign=post&utm_medium=web)! 
+
+What promising use cases for digital twins and precision medicine have you found in your work? What other technology should we be using to improve clinical research and care? Would love to know in the comments below!",7,1,Zawadscki,2024-04-08 16:17:50,https://www.reddit.com/r/datascience/comments/1bz20r9/three_practical_use_cases_of_machine_learning_and/,0,False,False,False,False
+1bzjlkf,Help Deciding Between Two Graduate Schools,"Hey all, I have until this April 15th to decide between two graduate schools and I can't figure out which is best for a career in data science. I'd love to get some advice from some professional data scientists. The following are the two schools and programs:
+
+1. **Texas A&M's MSCS program**. 2 years long for a total cost of attendance  \~60k.
+2. **North Carolina State's MS in Advanced Analytics program**. 10 months long for a total cost of attendance  \~64k.
+
+Here are what i deem the pros and cons of each program:
+
+||Pros|Cons|
+|:-|:-|:-|
+|Texas A&M's MSCS|**Likely would get a research assistantship** as I am both a domestic student and have research experience. I estimate this would lower my total cost to \~30k.|The **career path after graduation is not as clear**. Also I do not want to live in Texas upon graduation.|
+|North Carolina State's MSA|The MSA program is very well respected and all graduates are guaranteed a job. Last years class had a **median salary of $117,000** upon graduation (jobs typically are in NC. Huge alumni network consisting of data science professionals.|I will be taking out **$64,000 in loans** for 10 months of schooling.|
+
+As an aspiring data scientist I'd appreciate it so much if you could let me know where you think I should go.",5,21,SterFrySmoove,2024-04-09 04:43:01,https://www.reddit.com/r/datascience/comments/1bzjlkf/help_deciding_between_two_graduate_schools/,0,False,False,False,False
+1bz2qxc,Switching Domains,"Hey r/datascience! I am relatively new to the field and am loving my work so far, while my job title is not data scientist (Informatics engineer) I feel like I am exposed to a broad range of DS skills and knowledge (Neural Network training, ETL pipelines, AWS, Backend development , dev ops, and of course, analysis). The team I am is primarily concentrated on water recourses/ IOT, and while I love the actual data science work, I’ve never cared much for water recourse engineering despite my civil engineering background having a heavy influence over me landing this job. Thinking about the rest of my career, I’d like to learn as much as I can in my current role but want to work with different domain knowledge (healthcare, finance, etc). Just want to probe around and see if anyone else has switched it up! 
+
+tl;dr not really interested in the domain I’m in, what are my options in the future? ",4,2,GoldenPandaCircus,2024-04-08 16:45:17,https://www.reddit.com/r/datascience/comments/1bz2qxc/switching_domains/,0,False,False,False,False
+1bzp8eg,Syllabus for school,"I'm involved in developing a syllabus in data science for young people (aged around 16). It will be defined at three levels (let's call it levels 1, 2 and 3). I'm happy with the data science content but would like guidance about the statistical content.
+
+The course will be short (40 hours) so there's not a great deal of time for statistics, given that the focus of the course is data science (tools, techniques, methods, processes, etc.). However, there is some time (5 hours?) for some stats at each level.
+
+At this time my inclination is:
+
+Level 1: simple descriptive statistics: mean, median, mode, max, min, range.
+
+Level 2: Level 1 plus: percentiles, IQR.
+
+Level 3: Level 2 plus: variance, standard deviation (z scores).
+
+I'm tempted to introduce probability because it's fundamental to data science. What do you think about that? Also correlation?
+
+I appreciate that this omits inferential statistics but given the time constraints I can't see how to fit that in. But I accept that linear regression would be nice at Level 3.",1,1,bobbyelliottuk,2024-04-09 10:58:18,https://www.reddit.com/r/datascience/comments/1bzp8eg/syllabus_for_school/,1,False,False,False,False
+1bzqrd6,Why are data scientists so obsessed with profit? ,"I've been following This subreddit for about a year now, and one of the most disgust topics that gets talked about to death is how to demonstrate your abilities as a data scientist, and what you have achieved for your company in your interviews.... The number one piece of advice that seems to be said repeatedly is that you have to quantify what your AI models and algorithms did. They don't care if you generated XYZ model and used ABC technology, they care how much it boosted sales, how much it boosted profit, how much it boosted the gross revenue, how much it increased productivity and efficiency, all these lead back to profit. 
+
+
+**The thing that doesn't make sense though: Sales and profit are not infinite.** Anyone with a basic knowledge of economics would know that. How can you boost revenue if you are tied to a limited market, and according to the marketing division, you have tapped into about 90% of your entire market? If there's literally nothing additional that you can possibly do in your market, how are you supposed to increase revenue and profit? I see this a lot in the USA, and their flavor of capitalism.. The expectation is infinite revenue growth, infinite profit growth, forever, until the end of time. But anyone with a basic understanding of economics knows that is not truly possible or achievable. 
+
+
+**So the question, why are we so obsessed with profit?** Why do we always have to declare how much profit we made, and come up with these ridiculous almost clowny, circus-like numbers about how much we boosted revenue with our algorithms and code? The more you look into it, the flimsier those sorts of statements become, because it's borderline impossible to actually trace the money back and pinpoint how your algorithm boosted profit or sales or anything really to a specific number. Sure, maybe it contributed to it. But so did marketing. So did the sales team that's in the sales department calling people up every single day. Everyone is contributing to it at the same time. So how in the world are these people coming up with these absurd numbers about how their algorithm boosted sales and profit by XYZ percent? 
+
+
+**Finally, what about all of the other things that we achieve as data scientists?** This doesn't ever seem to be talked about, and it's very frustrating. If I create an analytics dashboard, create a 3,500 line ETL query that a data engineer really should be doing but instead I'm doing it because they know that I am one of the few people that has the capability to do it, or I'm doing natural language processing to create something silly for marketing like a word cloud... None of those are recognized or even cared about. But they are part of our responsibilities! We are expected to do this NLP, and all of these other crazy data science functions, but advised not to mention them an interview because no one cares, they are not impressive, Don't put them on your GitHub or even mention them because people will think you are grasping for straws and you're silly. But it's kind of hilarious to me. These are things that some of us really enjoy doing that took us a long time to figure out how to do and are part of our core responsibilities. But since they don't directly correlate to anything profit or sales-based, now all of a sudden they are no longer important. 
+
+
+**Summary**
+
+
+For those who hate reading. 
+
+1. People here keep claiming the most important thing in interviews is to communicate some arbitrary number about how much you boosted sales or profit
+
+2. Unlimited profit and revenue growth that doesn't make sense economically 
+
+
+3. We have a lot of responsibilities outside of profit that no one cares about, and are told to not mention them. 
+",0,25,databro92,2024-04-09 12:20:08,https://www.reddit.com/r/datascience/comments/1bzqrd6/why_are_data_scientists_so_obsessed_with_profit/,0,False,False,False,False
