@@ -1,0 +1,106 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1c2yl0i,What field/skill in data science do you think cannot be replaced by AI?,Title.,97,119,Mission-Language8789,2024-04-13 10:13:32,https://www.reddit.com/r/datascience/comments/1c2yl0i/what_fieldskill_in_data_science_do_you_think/,0,False,False,False,False
+1c2tz99,Predicting successful pharma drug launch,"I have a dataset with monthly metrics tracking the launch of various pharmaceutical drugs.  There are several different drugs and treatment areas in the dataset, grouped by the lifecycle month.  For example:
+
+
+
+|Drug|Treatment Area|Month|Drug Awareness (1-10)|Market Share (%)|
+|:-|:-|:-|:-|:-|
+|XYZ|Psoriasis|1|2|.05|
+|XYZ|Psoriasis|2|3|.07|
+|XYZ|Psoriasis|3|5|.12|
+|XYZ|Psoriasis|...|...|...|
+|XYZ|Psoriasis|18|6|.24|
+|ABC|Psoriasis|1|1|.02|
+|ABC|Psoriasis|2|3|.05|
+|ABC|Psoriasis|3|4|.09|
+|ABC|Psoriasis|...|...|...|
+|ABC|Psoriasis|18|5|.20|
+|ABC|Dermatitis|1|7|.20|
+|ABC|Dermatitis|2|7|.22|
+|ABC|Dermatitis|3|8|.24|
+
+* Drugs XYZ and ABC may have been launched years apart, but we are tracking the month relative to launch date.  E.g. month 1 is always the first month after launch.
+* Drug XYZ might be prescribed for several treatment areas, so has different metric values for each treatment area (e.g. a drug might treat psoriasis & dermatitis)
+* A metric like ""Drug awareness"" is the to-date cumulative average rating based on a survey of doctors.  There are several 10-point Likert scale metrics like this
+* The target variable is ""Market Share (%)"" which is the % of eligible patients using the drug
+* A full launch cycle is 18 months, so we have some drugs that have undergone the full 18-month cycle can that be used for training, and some drugs that are currently in launch that we are trying to predict success for.
+
+Thus, a ""good"" launch is when a drug ultimately captures a significant portion of eligible market share.  While this is somewhat subjective what ""significant"" means, let's assume I want to set thresholds like 50% of market share eventually captured.
+
+Questions:
+
+1. Should I model a time-series and try to predict the future market share?
+2. Or should I use classification to predict the chance the drug will eventually reach a certain market share (e.g. 50%)?
+
+My problem with classification is the difficulty in incorporating the evolution of the metrics over time, so  I feel like time-series is perfect for this.
+
+However, my problem with time-series is that we aren't looking at a single entity's trend--it's a trend of several different drugs launched at different times that may have been successful or not.  Maybe I can filter to only successful launches and train off that time-series trend, but I would probably significantly reduce my sample size.
+
+Any ideas would be greatly appreciated!
+
+",11,6,pboswell,2024-04-13 05:02:26,https://www.reddit.com/r/datascience/comments/1c2tz99/predicting_successful_pharma_drug_launch/,0,False,False,False,False
+1c364yh,Advice and Tips to a Newbie?,"I am going to be graduating from my Master's degree in IT a few months and plan to proceed with a career in this field. I have heard that the job market is pretty tough right now, so I am planning to upskill to help me get that first job.
+
+On that regard, I was wondering if there are any good project suggestions which can boost a CV for an entry level job in data analytics? Are there any other important resume suggestions you all can share? 
+
+If you all have suggestions for skills which can really help me to get that first job in this tough market, I am all ears as well. I have worked on a few models using Python and am comfortable working with SQL. Currently working on my dissertation and trying to learn Tableau (just started though). 
+
+On a side note, I have had people recommend me to try for data engineering jobs as well. Would you all recommend trying for both? What are the additional skills which I should try to learn in order to try out for data engineering roles?
+
+Any advice and tips from you all experienced folks is deeply appreciated! If it helps in any manner, I am based in India. 
+",8,7,Excellent-Pay6235,2024-04-13 16:40:05,https://www.reddit.com/r/datascience/comments/1c364yh/advice_and_tips_to_a_newbie/,0,False,False,False,False
+1c33azw,Where do you guys apply for jobs in uk?,"I’ve been using LinkedIn but haven’t got much success, I’m not sure if it’s because I’m unqualified (BSc from top 20 unis with 2ye), the markets tough or if I’m on the wrong site. 
+
+Where do you guys apply for roles? Im based in London currently. 
+
+I tried going to networking events, I attended big data London last year but the only people I met were trying to sell me storage solutions. Are there any networking events you’d recommend? ",6,2,Timely-Cupcake-3983,2024-04-13 14:31:42,https://www.reddit.com/r/datascience/comments/1c33azw/where_do_you_guys_apply_for_jobs_in_uk/,0,False,False,False,False
+1c30flh,Enhancing Weather Forecast Accuracy: Exploring Regression Models with Multi-source Data Integration,"I am currently working as a data scientist at a new energy startup, mainly responsible for predicting photovoltaic power generation every 15 minutes for the next day. The key data relied upon are weather forecasts, especially the predicted solar irradiance values. Currently, we have data from five numerical weather forecasts, which include fields such as irradiance, temperature, and humidity. The accuracy of the forecasts varies among different data sources, and there are certain discrepancies with the actual weather. I am considering merging the five sets of data to obtain a more accurate weather forecast. Can I use a regression model to fit the actual weather using the five sets of weather forecast data? Is there a better method available?",4,10,Rich-Effect2152,2024-04-13 12:08:20,https://www.reddit.com/r/datascience/comments/1c30flh/enhancing_weather_forecast_accuracy_exploring/,0,False,False,False,False
+1c35bvi,FNN to predict improper vouchers. ,"I am an auditor for a state agency, we audit payments the state makes every day to find improper voucher. 
+
+We get about 30,000 vouchers a day so obviously we can’t audit all of them. So we set up certain risks associated with vouchers to try and better find improper payments. And sometime we have filters for payments that meet certain criteria that must get audited. 
+
+However, our risk based design doesn’t really work, it’s just a chance of whether or not the vouchers selected for audited are improper or not. I don’t believe we have any better outcome that just randomly selecting a voucher everyday. 
+
+It just depends on the risks the auditors look for and how well they look at it. However, I am trying to create a statistical model to find these improper vouchers based on these risks. 
+
+As opposed to what some auditor thinks is the best risk, the model can look at all these risks and see how they interact and if there is some pattern. 
+
+Additionally, a lot of these risks have some arbitrary cut off date. For example, we might have a risk saying the specific vendor hasn’t been audited in over a year. That’s considered risky, however, a voucher that misses that by one year wouldn’t be rated as risky. 
+
+So doing this we can turn some categorical variables into continuous variables. 
+
+The data set as of now is about 600,000 vouchers that have been audited over a ten year span. Currently about 8% of them have been rejected. But not all of the rejected ones were necessarily bad. We have two classes non compliance and saving. Savings are when the money is not due or at least some of it, bad math on the invoice, incorrect charges and so one. While non compliance don’t really save any money it’s just some account error, maybe they paid from the wrong funds, referenced the wrong contract or something. It’s gonna mess up the accounting system but not really save any money. About 20% of rejected vouchers have saving and 80% are non compliant. 
+
+Obviously our goal is to identify vouchers that yield a saving. Even if we had a model that can predict all the improper ones, we just don’t have the resource to audit all of them. 
+
+So my thoughts were to create a model fine tuned to have low false positive. Basically I would have a penalizing model for instances of an okay voucher being marked as improper. 
+
+Obviously we’d miss some improper vouchers from that but we also don’t have the resource to audit them all anyway so my thought is this would allow us to focus on those that might be improper. 
+
+Just wondering if you guys have. Any thoughts on this. ",1,5,CaptainVJ,2024-04-13 16:02:59,https://www.reddit.com/r/datascience/comments/1c35bvi/fnn_to_predict_improper_vouchers/,0,False,False,False,False
+1c32kuk,Looking for a decision-making framework ,"I'm a data analyst working for a loan lender/servicer startup. I'm the first statistician they hired for a loan servicing department and I think I might be reinventing a wheel here.
+
+The most common problem at my work is asking ""we do X to make a borrower perform better. Should we be doing that?""
+
+For example when a borrower stops paying, we deliver a letter to their property. I performed a randomized A/B test and checked if such action significantly lowers a probability of a default using a two-sample binomial test. I also used Bayesian hypothesis testing for some similar problems.
+
+However, this problem gets more complicated. For example, say we have four different campaigns to prevent the default, happening at various stages of delinquency and we want to learn about the effectiveness of each of these four strategies. The effectiveness of the last (fourth) campaign could be underestimated, because the current effect is conditional on the previous three strategies not driving any payments.
+
+Additionally, I think I'm asking a wrong question most of the time. I don't think it's essential to know if experimental group performs better than control at alpha=0.05. It's rather the opposite: we are 95% certain that a campaign is *not* cost-effective and should be retired? The rough prior here is ""doing something is very likely better than doing nothing ""
+
+As another example, I tested gift cards in the past for some campaigns: ""if you take action A you will get a gift card for that."" I run A/B testing again. I assumed that in order to increase the cost-effectives of such gift card  campaign, it's essential to make this offer time-constrained, because the more time a client gets, the more likely they become to take a desired action spontaneously, independently from the gift card incentive. So we pay for something the clients would have done anyway. Is my thinking right? Should the campaign be introduced permanently only if the test shows that we are 95% certain that the experimental group is more cost-effective than the control? Or is it enough to be just 51% certain? In other words, isn't the classical frequentist 0.05 threshold too conservative for practical business decisions?
+
+
+1. Am I even asking the right questions here?
+2. Is there a widely used framework for such problem of testing sequential treatments and their cost-effectivess? How to randomize the groups, given that applying the next treatment depends on the previous treatment not being effective? Maybe I don't even need control groups, just a huge logistic regression model to eliminate the impact of the covariates?
+3. Should I be 95% certain we are doing good or 95% certain we are doing bad (smells frequentist) or just 51% certain (smells bayesian) to take an action?",1,11,Ciasteczi,2024-04-13 13:57:51,https://www.reddit.com/r/datascience/comments/1c32kuk/looking_for_a_decisionmaking_framework/,0,False,False,False,False
+1c344vh,Feedback on response: What realistically will be automated in the next 5 years for data scientists/ML engineers?,"I had responded to Reddit thread [here](https://www.reddit.com/r/datascience/s/lhe8RQK6Up) I was completely blown away with the traction my response received. 
+
+I wanted to thank everyone who took the time to read and share there thoughts. I would also appreciate if folks could share constructive feedback for me on the writing.
+
+I have a very small tech blog that I’ve been wanting to write on for a while now. I wasn’t sure where to start or what topics I should focus on first. I decided that I with all the engagement of that I would try to unpack the advice on the blog, which can be found [here](https://insightsthroughdiscovery.com/what-will-be-automated-by-ai-ml-in-the-next-five-years/). 
+
+The website hasn’t had much work on it, not really looking for feedback on the website itself, cause I know it needs work. I’m looking for feedback about the blog post and about the content within it?
+
+I would also like to hear about what topics you as a reader might be interested in reading about. Thank you, in advance for your feedback and I hope you have a great weekend ahead.",0,4,Legitimate_Source614,2024-04-13 15:08:43,https://www.reddit.com/r/datascience/comments/1c344vh/feedback_on_response_what_realistically_will_be/,0,False,False,False,False

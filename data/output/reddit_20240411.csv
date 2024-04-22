@@ -1,0 +1,79 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1c0bof0,why is all dev tool innovation in the AI/ML space focused on the least time consuming stuff?,"Every DS, DE, and MLE I speak to (including myself) spends a majority of their time focused on data prep. Even though this is taking up 70-90% of everyone's time all the investment and innovation focus seems to be on training, fine-tuning, and on-demand inference. Why? Is data prep not sexy?
+
+It is imperative that high quality samples are being used for training, shit data is going to create a shit model. I feel like there should be more focus on making feature selection, data cleansing, and preprocessing less cumbersome, any thoughts?",112,75,Ok_Post_149,2024-04-10 03:22:01,https://www.reddit.com/r/datascience/comments/1c0bof0/why_is_all_dev_tool_innovation_in_the_aiml_space/,0,False,False,False,False
+1c0rkd3,What does a PIP look like for data scientists?,"Im curious, for those who have been placed on a PIP, what does it look like generally and what metrics are typically measured to determine if you have met or failed to meet it?",76,59,Beneficial_Space9001,2024-04-10 17:42:16,https://www.reddit.com/r/datascience/comments/1c0rkd3/what_does_a_pip_look_like_for_data_scientists/,0,False,False,False,False
+1c0ujfw,Starting as a Data Scientist,"After being a data analyst in the navy and then a data engineer the last decade I start my new role as a Data Scientist working from home for my dream company on a project that I'm a subject matter expert on
+
+Pretty stoked. Especially since I was laid off last month which got me to apply to a new role
+
+Pretty nervous. Pretty excited. ",72,45,Not_Another_Cookbook,2024-04-10 19:43:09,https://www.reddit.com/r/datascience/comments/1c0ujfw/starting_as_a_data_scientist/,0,False,False,False,False
+1c0quez,What is a reasonable salary to ask for if you have a master's in data science/analytics and approx. two years of relevant experience?,"With the title, I will be finishing my master's in DS this fall, and I've worked as a Data Analyst for a year (doing high level DS projects) and as a lead Clinical Data Manager for over a year before that. What salary should/could I ask for in a reasonably HCOL city for a Data Scientist position? I have a bit of imposter syndrome, and I want to make sure I don't sell myself short and ask for too little.",25,35,UnsafeBaton1041,2024-04-10 17:12:02,https://www.reddit.com/r/datascience/comments/1c0quez/what_is_a_reasonable_salary_to_ask_for_if_you/,0,False,False,False,False
+1c0x106,Shout-out to all you super competent Data Scientists out there!,"In the past, I've often commented that my domain expertise and working experience (i.e. in organic chemistry) is likely the thing that is / has been most valuable to my employers so far - with my Data Science skills being a second place. So, there's likely tons of data scientists that will run circles around me with their expertise in ML, programming, maths or statistics.
+
+Today, I saw an (internal) job opening for a ""fully DS-centric"" Data Scientist position - the full shebang: multi-year-track record in diverse ML methods, experience in LLMs, fullly business-savy, proven track-record, excellent communicator, experienced in change management).
+
+This is not the position for me. I'm happy and content with my job and with how things are going for me; I'm good at what I do. I like the niche that I have created for myself.
+
+Still, it made me realise *how effing competent* some of you guys out there really are in your respective domains! So, I just wanted to say, well done you! Keep at it! 🧡
+
+Edit: ""proper""",21,15,norfkens2,2024-04-10 21:23:55,https://www.reddit.com/r/datascience/comments/1c0x106/shoutout_to_all_you_super_competent_data/,0,False,False,False,False
+1c0exqh,Time series train test split,"Hi all,
+Suppose I have 6 months of data at weekly level (24 data points) and I want to forecast for the next two weeks.
+
+If Im doing a train test split keeping let’s say 4 data points for validation. With this setting suppose i get a good arima or ets model.
+
+My question is, at the time of forecasting, I’m actually predicting for the next 6 weeks then (4 in validation, 2 in prediction). Time series models become less reliable the further into the future you predict. 
+
+In such a scenario, is train test split for time series something we should be trying out? 
+
+PS: the time horizon and data are just to explain my thoughts. ",8,6,Revolutionary_Egg744,2024-04-10 06:30:10,https://www.reddit.com/r/datascience/comments/1c0exqh/time_series_train_test_split/,0,False,False,False,False
+1c0btox,(Deep Learning vs Data scientist) Need some advice,"I'm an undergrad student (mechanical engg) learning data science  through online courses and resources, I need some advice for my career.   
+
+I'm able to see 2 types of job postings, one is a traditional data  science role, others are also data science roles but requiring deep  learning skills.   
+
+I have seen, for data science roles requiring deep learning, usually prefer people from PhDs or higher educations.   
+
+So my question is should I even target or try to get into these  roles requiring deep learning skills because I doubt if I can compete  with PhD students for such roles.   
+
+Or should I stick with traditional data science and data analyst roles.   ",6,17,Medium_Alternative50,2024-04-10 03:29:44,https://www.reddit.com/r/datascience/comments/1c0btox/deep_learning_vs_data_scientist_need_some_advice/,0,False,False,False,False
+1c0rhdm,A Tale of Two Cultures: Integrating Data Science and MLOps to Build Successful ML Products," When the excitement about data science became widespread about 10 years ago, this spurred a lot of proof-of-concept ideas. However, most of these stayed confined in Jupyter notebooks and never made it into production. There are multiple reasons why it has been a lot harder than initially expected to productionize ML models, but the one I want to focus on in this blog post is one that has not been explored in as much depth. In order to create business value, we have to marry two very different approaches: The ML lifecycle starts out on the exploratory data science side, but we eventually have to transition towards an engineering-driven approach in order to achieve the quality attributes such as availability, reliability, scalability, and security typically expected of production systems. Thus, what it takes to do good work in data science is fundamentally opposed to what it takes to do good work in MLOps, giving rise to different best practices, skill sets, and even mentalities (ways of thinking about problems) on each side. As a result, a central challenge for creating successful ML products is to find a good process for making these two different cultures work well together. 
+
+This is very detailed article by  *Thomas Loeber, Senior Machine Learning Engineer at*  Logic20/20, Inc. 
+
+Source here: [https://opendatascience.com/a-tale-of-two-cultures-integrating-data-science-and-mlops-to-build-successful-ml-products/](https://opendatascience.com/a-tale-of-two-cultures-integrating-data-science-and-mlops-to-build-successful-ml-products/)",5,2,Data_Nerd1979,2024-04-10 17:38:51,https://www.reddit.com/r/datascience/comments/1c0rhdm/a_tale_of_two_cultures_integrating_data_science/,0,False,False,False,False
+1c0uyvo,The best place to network as a Data Scientist,"Hi all,  
+In a week, I'll be flying to the States. I'm looking for nice places to network as a senior DS with over 10 yrs of experience in consulting, management but mostly in building AI products (I tend to favour Python over meetings). I'll be visiting Washington and New York and have 2 weeks time. Things on my list:
+
+\- a DS conference (in Washington on AI in finance; will not post the link as this may seem like a hidden commercial, which it is not),  
+\- several meetups in NY,  
+\- I want to go to workspots/techhubs/incubators to network and I also have to do some work. Any recommendations for places that actually stimulate networking (not WeWork and the likes) are highly appreciated!  
+\- I actually got the advice to go to a gym where a lot of rich tech people go called equinox. Not sure how serious I should take that. But I like weird stuff like that as it might also lead to some surprise connections.  
+\- Any good hostels where a lot of nomads/tech people live would also be nice.  
+
+
+Let me know if this resonates with you and/or if you have any feedback.  
+
+
+Much appreciated!",3,8,ythc,2024-04-10 20:00:18,https://www.reddit.com/r/datascience/comments/1c0uyvo/the_best_place_to_network_as_a_data_scientist/,0,False,False,False,False
+1c07fg4,Any leads on climate change specific/renewable or sustainable energy companies,"
+Hey folks. I would want to apply my skillset in the domain of analytics/ data sciences in companies that are working in the field of climate change or other environment related domain. There is an unawareness about such companies. Can people comment here if you know of one? Thanks. 
+
+#Climatechange #DataScience #Analytics",0,4,mohiit402,2024-04-09 23:59:51,https://www.reddit.com/r/datascience/comments/1c07fg4/any_leads_on_climate_change_specificrenewable_or/,0,False,False,False,False
+1c0rlz7,Seeking a Mock Interviewer for a Senior-Level Data Science Position,"Hello r/DataScience,  
+I am currently preparing for senior-level data science interviews and am seeking a partner to conduct a comprehensive mock interview with me. My goal is to emulate the actual interview setting as closely as possible, emphasizing both technical acumen and behavioral competencies.
+
+  
+**What I'm Seeking:**  
+- **Experience:** Ideally, you have experience either conducting or participating in real data science interviews, particularly at the senior level.  
+- **Technical Proficiency:** You should be capable of devising and evaluating technical questions that are common in data science positions.  
+- **Behavioral Insight:** You must be proficient in behavioral interview questions and able to provide feedback on how to effectively present my experiences and approach to problem-solving.  
+- **Honest Feedback:** I'm looking for candid critiques, not just reassurance. I want detailed insights into my responses—what works, what doesn't, and how I can improve. Imagine you're assessing me as a potential hire for your own company; how would you rate my performance?
+
+  
+**What I Offer:**  
+- **Compensation:** I am prepared to pay for your time and insight. Please inform me of your rates when you reach out.  
+- **Flexibility:** The mock interview can be scheduled at your convenience.  
+- **Reciprocity:** In exchange, I would be pleased to offer you a mock interview. This could be a mutual learning opportunity, allowing us both to refine our skills.  
+If you, or someone you know, might be interested in this opportunity, please send me a direct message or leave a comment below.  
+Thank you!",0,3,Only_Maybe_7385,2024-04-10 17:44:12,https://www.reddit.com/r/datascience/comments/1c0rlz7/seeking_a_mock_interviewer_for_a_seniorlevel_data/,0,False,False,False,False

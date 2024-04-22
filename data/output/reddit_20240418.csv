@@ -1,0 +1,111 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1c6gdhi,You know Gen AI != You know Deep Learning,"Hi,
+
+I'm a student learning data science. 
+
+I see few of my mates, making project with generative AI tools like langchain or open AI API etc
+
+But this is what I think, and **I want to know if what I think is correct or not.**
+
+Knowing how to use generative AI frameworks does not validate that you know deep learning or even basic machine learning.
+
+I think building projects with generative AI frameworks only validate that you know how to code by reading some docs.  I think anyone who knows basic programming can make an ""AI summarizer"" or ""AI Chatbot"" using langchain.
+
+I don't feel that making such projects can make me standout in any way for machine learning jobs.
+
+I would rather make a basic data science project which at least tries to solve some real business problem.",117,43,Medium_Alternative50,2024-04-17 17:51:53,https://www.reddit.com/r/datascience/comments/1c6gdhi/you_know_gen_ai_you_know_deep_learning/,0,False,False,False,False
+1c65w1m,Best paid course for data science area?,"Hello everyone. I am on a situation where my manager wants me to put a paid course on my personal development plan.
+
+As an experienced data scientist, everything I learned so far has been on free resources over the web. YouTube, forums, etc.
+
+Thus, since the company WANTS to pay me something, what would be your recommendations?
+
+It could be anything data related. I work today on the internal auditing data science team of a huge company on my country.
+
+  
+Edit: important to mention I am already on the business as a Senior Data Scientist. So introduction courses/hands on coding would not be enough.",15,19,dick_veganas,2024-04-17 09:55:44,https://www.reddit.com/r/datascience/comments/1c65w1m/best_paid_course_for_data_science_area/,0,False,False,False,False
+1c6c87p,Is there some sort of multilevel KNN/ML model I can use to figure out which users will buy specific products?,"
+
+I am wondering if there is some sort of multilevel model that I can use to identify likely buyers of specific products or create a lookalike audience.
+
+The issue is that I have 1000s of products and around a million users. It would be computationally infeasible to create a model for every product.
+
+The structure I am thinking of is the first level is a product and the next level is all the users in my database.
+
+Is there some sort of ML algo I could use to achieve this?",2,14,Terrible-Hamster-342,2024-04-17 15:06:17,https://www.reddit.com/r/datascience/comments/1c6c87p/is_there_some_sort_of_multilevel_knnml_model_i/,0,False,False,False,False
+1c6oilu,Preparation for a Final Round Interview for a Data Science Internship,"Hello Everyone!
+
+This Friday, I have an upcoming final-round interview with the Director of the division I'd be interning under if I got the position.
+
+Per the recruiter, this is just to sort of solidify me as the right candidate for this role. I know that there won't be any sort of technical/coding aspect as it is just a 30-minute call.
+
+If anyone has any advice on how to approach it, it would be greatly appreciated! This is my first ever final round interview so any advice would be great!
+
+Thanks and have a great day!",1,1,deeht0xdagod,2024-04-17 23:24:16,https://www.reddit.com/r/datascience/comments/1c6oilu/preparation_for_a_final_round_interview_for_a/,0,False,False,False,False
+1c6p88x,Is freelance data science a thing?,"If anyone has any experiences, I'd love to hear it. 
+
+And if it's not a thing, what are the blockers in your opinion?",2,1,trashed_culture,2024-04-17 23:56:29,https://www.reddit.com/r/datascience/comments/1c6p88x/is_freelance_data_science_a_thing/,1,False,False,False,False
+1c6p6m4,Job hunt update.,"I made this [post](https://www.reddit.com/r/datascience/s/5MjMTDtBYB) after getting an offer a couple months ago. A couple weeks after the offer, it was rescinded. Probably for the best as I realized the original description did not match the actual role.
+
+After the offer was rescinded, I took a couple weeks off the job hunt before getting back at it. Cleaned up the resume, started being more selective with where I applied, and grinding SQL problems online. About a month in I was interviewing with 3 companies. 
+
+I don't feel like making another Sankey, but it's pretty much identical to the last, except I got 3 first round interviews, rather than the 1 last time. Companies are 1 mid-sized tech and 2 pre-IPO unicorns. I was ghosted by one unicorn after a screening round and am still interviewing with the other after 2 rounds, though after 5 rounds with the mid-sized tech I accepted a DS manager position.
+
+My advice: 1) stop following this subreddit, it's 90% doom posting and 10% circle jerk. It doesn't feel like anyone here is actually interested in data science beyond getting a job. 2) mass send an easy to parse resume everywhere. 3) keep your head up, it's a grind. Don't forget to exercise, eat well, and have a social outlet. 4) referrals aren't worth what they once were. None of my dozen or so referrals resulted in even a screening interview 
+
+I was rejected for roles I thought I was a shoo-in for and interviewed for roles I thought were a reach. There's a lot of luck (preparation+opportunity) involved that's often out of your control.
+
+Good luck
+",8,3,JeepMan831,2024-04-17 23:54:21,https://i.redd.it/42x2vfh4o4vc1.jpeg,0,False,False,False,False
+1c6hggs,Suggestions for growth plan for a junior DS with one year experience,"Hi, I'm one year into my first DS job at a big German company. I want to decide in which direction I want to develop myself careerwise and ask you for your opinion on that. Right now I do basic things like building ML models, big data analysis in pyspark, dashboards in powerbi and I also built small chatbots with streamlit, langchain and some Azure ressources. I know functional programming in Python but I never really learned object oriented programming, is this maybe something I should go for?
+
+I don't really have a senior colleague right now that could create a plan for me, it's a bit of a weird hierarchy there, so I'm super thankful for any input :)
+
+Thank you!",0,7,Florida-Rolf,2024-04-17 18:35:00,https://www.reddit.com/r/datascience/comments/1c6hggs/suggestions_for_growth_plan_for_a_junior_ds_with/,0,False,False,False,False
+1c6c2da,"What are some good approaches to detect mislabeling/misclassification while being resilient to outliers, anomalies, and new emergent classes?","I'm working on a self-driven project where I'm taking data, clustering it using DBSCAN or OPTICS, and passing the data and labels to a classifier to train. The overall goal is anomaly detection, pattern recognition, and behavioral analysis and my approach has been to remove conserved (repeated) patterns as ""knowns"", provide a best-fit for anomalies under the assumption that the sample belongs to a known class but contains a type of anomaly (or is an outlier), and to flag unknown cases as either more prominent anomalies or, in cases where anomalies bear a measure of self-similarity, a new, emergent class.
+
+Currently, I am using an ensemble of OVR binary classifiers (SVMs), each trained on a single target class against all other samples, as a recognition network. I also have a boosted ensemble (random forest) trained similarly to provide consensus to the output of the recognition system.
+
+I have a k-NN classifier that is trained only on clustered data (samples labeled as noise by clustering was removed from this training set) to act as a rectification system for mislabeling/misclassification.
+
+So, if a sample is passed through and there's a consensus in the recognition network, it can bypass the rectification system. If consensus is not met, the rectification system attempts to identify the class. If the probability is high enough, it's flagged as an anomaly of class N and sent out for further anomaly detection and isolation. If the rectification system's probability output is too low (or more than 1 label has a similar probability), it's flagged for analyst review.
+
+Does this make sense? It works well in most cases but I don't quite have the warm and fuzzy on the misclassification detection. It seems kind of nebulous when it comes to recognizing a known class, an anomalous sample of a known class, a new class, or a variant/evolution/subclass of a known class. That's where I'm wanting to go with this. Also, any feedback on the setup would be appreciated.",1,6,WadeEffingWilson,2024-04-17 15:00:07,https://www.reddit.com/r/datascience/comments/1c6c2da/what_are_some_good_approaches_to_detect/,0,False,False,False,False
+1c69hmg,"As a DS executive, which in-person conferences are must-attend?","I am a VP of Data Science at a small company, and I'm looking to select the top 2-3 conferences where I can connect with other executives, gain insights into their world, understand data science team maturity, and learn about their tech stack. 
+
+What conferences should be on my list? 
+
+I'm particularly interested in must-attend events for C-suite, VPs, and directors in data science/AI. 
+
+Based in Ohio, I prefer larger conferences to minimize travel disruptions, as I prefer not to interrupt my work for smaller events. ",1,26,harsh5161,2024-04-17 13:11:54,https://www.reddit.com/r/datascience/comments/1c69hmg/as_a_ds_executive_which_inperson_conferences_are/,0,False,False,False,False
+1c6aick,Chmura (Advise for interview),"Hello, I am about to have an interview for a BI Analsyt postion and I found out that the main system they use is Chmura. I tried looking up videos to see how it works ( is it closer to SQL or Tableua, etc.)  but all I got were comapany video's. Does anyone have any info?",0,0,Scarlettemaker,2024-04-17 13:55:22,https://www.reddit.com/r/datascience/comments/1c6aick/chmura_advise_for_interview/,0,False,False,False,False
+1c5wito,Risk Aversion is Crushing the Adoption of Cloud Abstractions,"Hey All, 
+
+I think many of us can agree that defining the hardware we want to use right next to the piece of code we are running is objectively a much better developer experience. I have always loved the idea of lowering the barrier when it comes to running code in the cloud. As more cloud abstractions hit the market, I was honestly really surprised by the lack of adoption. There aren't any unicorns (I don't think any actually) in this space yet, just series A businesses.
+
+After speaking with a handful of Data Scientists, Machine Learning Engineers, and DevOps Engineers, it became evident that risk aversion is causing most of the friction. Using a fully managed service can definitely have some upsides, and in many cases, I prefer using them, but convincing your boss to pipe petabytes of data to another company's cloud and incur 3-5x compute costs probably isn't going to sit well. There are also some open source alternatives but they are intentionally difficult to configure so you pay for their premium offerings that reduce config setup. 
+
+Since I started evaluating this space I decided to build my own abstraction. I'm working on a cloud abstraction called [Burla](https://www.burla.dev/) that aims to satisfy the risk-averse majority.
+
+Burla is...
+
+* Free and open-source software
+* Installable in your cloud with one command
+* A Python package with one function and two arguments
+* Scales to thousands of VMs in under 1 second
+* Deploys code to any hardware (GPUs) and any software environment (Docker)
+* A tool that just works. Burla automatically syncs packages, re-raises exceptions, and streams back stdout/stderr
+
+Any and all feedback is welcomed, here is the [repo](https://github.com/Burla-Cloud). ",1,3,Ok_Post_149,2024-04-17 00:48:37,https://www.reddit.com/r/datascience/comments/1c5wito/risk_aversion_is_crushing_the_adoption_of_cloud/,0,False,False,False,False
+1c60jrd,Would you be interested in a specialized DS job emailer?,"I've been able to create a service that sends me jobs related to recommender systems every day, and have even found a couple jobs that I've interviewed for. I'm realizing this might be helpful to other people in other specializations like computer vision or NLP, using different stacks like AWS or GCP, and maybe even by region. The ultimate goal is to allow the job seeker to rely on this emailer to find recently posted jobs, so they don't have to continually search and instead spend their time improving their portfolio or interview skills.
+
+I'm looking for validation, from you, whether that's something you'd be interested in signing up for? Additionally, since the process isn't free to run and scale, would $5/month be too much or too little for something like that?",0,2,living_david_aloca,2024-04-17 04:09:30,https://www.reddit.com/r/datascience/comments/1c60jrd/would_you_be_interested_in_a_specialized_ds_job/,0,False,False,False,False
+1c6h2e9,Using Data Science to Better Evaluate American Football Players," Dive into the transformative power of data science in the world of American football with Eric Eager, PhD's ""Using Data Science to Better Evaluate American Football Players."" In this presentation, Dr. Neubig, an expert in machine learning and natural language processing, showcases how the sport is evolving through advanced analytics. 🏈💻 From play-by-play and charting data to the revolutionary potential of player tracking data, discover the cutting-edge techniques that are setting the stage for a new era in football analysis.   
+[https://www.youtube.com/watch?v=8lwFUO\_yj7c](https://www.youtube.com/watch?v=8lwFUO_yj7c)",0,1,Data_Nerd1979,2024-04-17 18:19:10,https://www.reddit.com/r/datascience/comments/1c6h2e9/using_data_science_to_better_evaluate_american/,0,False,False,False,False
+1c6hidz,Seeking Advice for a 72-Hour Insurance Company Case Study," Hello everyone,
+
+This Friday, I'll be starting a case study provided by an insurance company, which needs to be completed within 72 hours. With two years of experience as a Data Scientist, I'm committed to delivering my best work and am seeking your expert advice to prepare effectively.
+
+Could you share strategies, resources, or tools that might help me tackle this challenge efficiently? Additionally, for those who have undertaken similar case studies, I'd love to hear about your approach and the lessons you learned. What are the general expectations for candidates with my level of experience?
+
+Thank you in advance for your guidance!",0,3,True-Plantain9803,2024-04-17 18:37:11,https://www.reddit.com/r/datascience/comments/1c6hidz/seeking_advice_for_a_72hour_insurance_company/,0,False,False,False,False

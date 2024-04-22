@@ -1,0 +1,59 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1c40xcl,"If you mainly want to do Machine Learning, don't become a Data Scientist","I've been in this career for 6+ years and I can count on one hand the number of times that I have seriously considered building a machine learning model as a potential solution. And I'm far from the only one with a similar experience.
+
+Most ""data science"" problems don't require machine learning.
+
+Yet, there is SO MUCH content out there making students believe that they need to focus heavily on building their Machine Learning skills.
+
+When instead, they should focus more on building a strong foundation in statistics and probability (making inferences, designing experiments, etc..)
+
+If you are passionate about building and tuning machine learning models and want to do that for a living, then become a Machine Learning Engineer (or AI Engineer)
+
+Otherwise, make sure the Data Science jobs you are applying for explicitly state their need for building predictive models or similar, that way you avoid going in with unrealistic expectations.",207,71,avourakis,2024-04-14 18:50:39,https://www.reddit.com/r/datascience/comments/1c40xcl/if_you_mainly_want_to_do_machine_learning_dont/,0,False,False,False,False
+1c3vvu7,What is your Job Title/ How Many Hours on Average Do You Work?,"I am a Machine Learning Engineer and I was at a get together with friends. Someone asked how my job was going and I mentioned the work goes through waves and I am working around 55 hour weeks at the moment. Everyone I was with looked shocked about how much I was working and I asked them how much they work and everyone said 40 hours...except one guy who is a data scientist said he works 35 hours. Now I am concerned I am being overworked at my job, especially since my friend who is a data scientist said he was only working 35 hours. I was wondering if this was a career thing possibly?
+
+-------EDIT-------
+
+How do people find these laid back jobs? Did you all have an intense interview process? Looking at interviews for companies, it seems like they are incredibly intense and makes me wonder about the work load for those companies...",115,160,datatastic08200,2024-04-14 15:15:09,https://www.reddit.com/r/datascience/comments/1c3vvu7/what_is_your_job_title_how_many_hours_on_average/,0,False,False,False,False
+1c41y7n,Distraction caused by the Ai Hype,"I noticed there's some disconnection between this recent AI Hype we constantly witness on Linkedin/Twitter, things like these new LLMs, the latest 3D models, the Cool Gen AI stuff ...  and the industry requirements that actually matter for companies. Which is a bit confusing and can be distracting especially for juniors trying to upskill and learn the things that leads to get them jobs, this leaves you with the questions: Should you follow the hype and try to stay up to date by learning all these new things? or stick to what matters and can generates actual value and be good at it even if it seems ""outdated"" (things like traditional machine learning)? ",14,6,MrdaydreamAlot,2024-04-14 19:32:13,https://www.reddit.com/r/datascience/comments/1c41y7n/distraction_caused_by_the_ai_hype/,1,False,False,False,False
+1c3jupb,T test vs z test,Why dont we use t tests for comparing proportions of two populations? I have tried digging into this but could not understand yet. ,8,10,mohiit402,2024-04-14 03:23:08,https://www.reddit.com/r/datascience/comments/1c3jupb/t_test_vs_z_test/,0,False,False,False,False
+1c3t6ww,Asking for a promotion too soon?,"Hi all,
+
+Some context for the situation,
+I’m a career switcher (sales-> tech staffing AM -> self employed personal trainer -> Data Scientist )
+
+I will be graduating with my MS-DS next month (May) and have been working full time as a DS since October 23. (With a 3 month internship at the same company prior to coming on full time).
+
+I was brought in as entry level (BS and no prior experience required)
+
+I was pulled into a project that ended up being multifaceted and find that I am collaborating with a principal on how to tackle the problems we face, solutions we build, and deadlines for each piece etc. We divide the work pretty evenly and are responsible for our respective deliverables.
+
+Our lead suggests that I need to make the case now for a promotion given what we’ve done thus far in terms of work load, deliverables etc 
+And while I “feel” like that makes sense my brain says “I’ve only been here 6 mths”.
+
+When is it too soon? I was planning on letting the project wrap up and presenting my progress, and value add to the company along with including that I am now an MS grad but wanted to see what the more experienced folks have to share
+
+TIA!",2,33,Texas_Badger,2024-04-14 13:07:29,https://www.reddit.com/r/datascience/comments/1c3t6ww/asking_for_a_promotion_too_soon/,0,False,False,False,False
+1c3pdcz,Looking for team memebers for CV kaggle challenge ,"Hey! I am looking for teammates for image-matching-challenge-2024. Please do reach out if you have prior CV experience. 
+
+My Profile: Masters in data science, top kaggle achievement: finished top 8% in llm-detect-ai-generated-text  challenge. I have NLP experience, want to build CV experience. Most comfortable in pytorch.",2,2,TUSH11235,2024-04-14 09:14:29,https://www.reddit.com/r/datascience/comments/1c3pdcz/looking_for_team_memebers_for_cv_kaggle_challenge/,0,False,False,False,False
+1c45zjn,Would really love opinions. ,"So I’m a hs math teacher. Over the past 4-5 years my school has started teaching data science. I’ve been teaching that for about 3-4 years. Very basic stuff at the HS level, basically intro to R and some stats.  
+
+I’ve started to think about studying DS as a possible career path (and/or as a source of side income if that’s possible). 
+
+I was looking around and saw that Berkeley extension offers a Bootcamp in data science. It’s not cheap and seems like it will take up a lot of my free time. 
+But I’m having second thoughts about doing this. 
+For starters the application process was very easy. Which makes me wonder how effective this program is. 
+Also, this is just a certificate program. And it seems like most people on this subreddit have BS and or masters. 
+Does anyone have any experience with this particular program? Is there a better path to follow?
+Thank you.  ",2,0,BlameCanadaDry,2024-04-14 22:19:36,https://www.reddit.com/r/datascience/comments/1c45zjn/would_really_love_opinions/,1,False,False,False,False
+1c3wgfp,Hiring managers - how do you measure research capabilities and coding good practices on an interview?,"So in the next couple of weeks I am going to interview several candidates to our department. Our work is divided between ml development, feature engineering and ideation and customer facing. I don’t need the candidates to excel in all of these, but if I need to choose the first two are the most important aspects.  
+How do you evaluate candidates in your organization for these traits? I am looking for a candidate that has some kind of a programing skills or with some demonstrated ability to write production level code, and with initiative and research capabilities, not necessarily a PhD but some past experience. ",0,4,David202023,2024-04-14 15:40:51,https://www.reddit.com/r/datascience/comments/1c3wgfp/hiring_managers_how_do_you_measure_research/,0,False,False,False,False
+1c3vdii,What would you do in my shoes?,"People of datascience, if you were in my shoes and the goal was  to get a job asap in machine learning engineering role (preferably   NLP), how would you plan a few months ahead and in what time frame would  you meet that goal.   
+
+My shoes: [https://www.dropbox.com/scl/fi/k0ruhu6wnri4phfiniuri/Resume-Censored.pdf?rlkey=zq46ltuvu4xjxtrn68d8zyd01&dl=0](https://www.dropbox.com/scl/fi/k0ruhu6wnri4phfiniuri/Resume-Censored.pdf?rlkey=zq46ltuvu4xjxtrn68d8zyd01&dl=0)  
+(this is enough to give you an idea of what my shoes look like)   
+
+Goal is to get a job asap, as mentioned above. My university is  online so I have to spend about to 2hrs daily to complete my lectures,  and prepare for assignments and quizes. I spend about 8-12 hrs daily,  divided for learning ML (currently taking CS224n lectures) and working  at my internship (fully-remote). I live in Kuwait and the ML market here  is almost non-existent. I can move back to Pakistan (home country) and  get a full-time job there where the market is not very mature but there  is work for engineering (R&D near non-existent). Best case scenario  would be to get a fully-remote job in any part of the world possible. My  salary expectations are not much, I can work full-time job if it can  pay me $500/mo atleast because that would cover my needs and then with  that I can focus on my studies and ML specifically as I want to get into  masters or phd after bachelors. That's my long-term goal to get into  academic research.   
+
+So for now, getting a job to cover my expenses is a priority and a  short term goal. How would you then plan next few months to meet that  goal, if possible?",0,2,Total-Opposite-8396,2024-04-14 14:52:34,https://www.reddit.com/r/datascience/comments/1c3vdii/what_would_you_do_in_my_shoes/,0,False,False,False,False

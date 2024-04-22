@@ -1,0 +1,48 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1c5f11i,Loading a trillion rows of weather data into TimescaleDB,,17,2,DeadDolphinResearch,2024-04-16 12:36:28,https://aliramadhan.me/2024/03/31/trillion-rows.html,0,False,False,False,False
+1c5b5xz,Interview Advice - Sales and Marketing Predictive Modelling ,"Its hard as an international to get internships in this market but thankfully I had the fortune to interview for a few F250 companies. 
+
+I seem to be missing out for fine margins. One company team technical lead said that i would be a good fit but since there was just 1  opening, I got referred to another team to apply . This happened quite a few times with others except i wasnt referred to other teams. I prepared for wrong things in that interview. I was able to answer all but it was thinking on spot and  beating around the bush which definitely didn't help . Someone who knew it would sound more sure and knowledgeable and will get the edge .I know where i could have improved :( 
+
+This maybe my last opportunity to bag summer internship this year.   I want to give my best and try to leave no  stone unturned.  
+
+It would be great of someone with experience in predictive Modelling in sales and marketing can tell me about some work done and commonly used questions / techniques. I did google and chatgpt but some real world / production level insights and some commonly used models and methods MLOps of this domain would help me a lot. 
+
+Appreciate your support in the above matter ",7,4,Mayukhsen1301,2024-04-16 08:40:58,https://www.reddit.com/r/datascience/comments/1c5b5xz/interview_advice_sales_and_marketing_predictive/,0,False,False,False,False
+1c5t2td,Sharpening Up On Case Studies,I have been interviewing a few months but struggling to get past the first or second round. There are a few things I want to focus on sharpening but I suspect I am not wowing them with my case study responses. Do y’all have any suggested references for broadening bow I am thinking about and responding to these?,7,7,doubtofbuddha,2024-04-16 22:16:16,https://www.reddit.com/r/datascience/comments/1c5t2td/sharpening_up_on_case_studies/,0,False,False,False,False
+1c5u7xo,Using a data warehouse as a data source for ml models?,"Should you use a data warehouse to extract data for a project? I work at a company that has a number of source systems some of which superseed one another.
+
+The data warehouse serves as the glue for all the mapping’s. A major downside is that the dimensional modeling doesn’t go in all the detail available.
+
+I feel like this is a wrong approach but again don’t want to take weeks to get the super details which might not make a difference. On the other hand it feels like I am not leveraging the data available.
+
+What do you guys use to source data?",1,2,nerfyies,2024-04-16 23:04:32,https://www.reddit.com/r/datascience/comments/1c5u7xo/using_a_data_warehouse_as_a_data_source_for_ml/,0,False,False,False,False
+1c5jwqv,Using Cloud Compute and Parallelization," 
+
+I’m running transformer models from Hugging Face on my laptop with python/jupyter notebooks. These notebooks take hours to run and I’d like to learn how to accelerate them. I believe my next steps are working with a cloud computing service to offload my code onto stronger computers, as well as editing my code to make use of parallelization.
+
+Does anyone have recommendations on services and/or resources for how to get started? I’m probably going to start looking into some sort of aws service (sagemaker?) and my friend mentioned dask to me, so I’ll look into that as well.
+
+Right now my code is calling these models using the standard pipeline method within a list comprehension. I believe I’ll need to change that, as I’m expecting that to not be parallelizable. Any advice? I’ve got a data frame with many rows and I’m trying to run a model on text within these rows for things like sentiment analysis and zero shot classification.
+
+Thank you!",1,6,MonBabbie,2024-04-16 16:07:00,https://www.reddit.com/r/datascience/comments/1c5jwqv/using_cloud_compute_and_parallelization/,0,False,False,False,False
+1c5fqyd,"Rule based, Recommendation Based Embedding","Hello Coders
+
+I would like to share an experience and know your opinions. I embedded about 12K+ order lists from a takeaway order system. I used Cohere english v3 and openai text embeding v3 for the embed. I prepared questions for the embed I would like large pizza, green pepper and corn questions with semantic parser. The output answers of these questions vegan pizza, vegan burger added pepperoni topping coke side topping did not satisfy me. Complementary and suggestion answers gave one quality and one poor quality output. Of course, these embed algorithms are usually based on conise similar. I suddenly had the suspicion that I should use embed for this type of rule based, match based, recommended. I believe that I can do the attached data with my own nlp libraries with more enrichment metadata tags without embedding. I would be glad if you share your ideas, especially if I can use llm in Out of vocabulary (OOV) detection contexts.
+
+Thank you.",1,2,serdarkaracay,2024-04-16 13:11:35,https://www.reddit.com/r/datascience/comments/1c5fqyd/rule_based_recommendation_based_embedding/,0,False,False,False,False
+1c5ufgp,Anyone out here freelancing?,"Would love to know how y’all got your start and the types of projects/jobs you do. Also, where you’ve found work.
+",2,2,Typical-Macaron-1646,2024-04-16 23:13:26,https://www.reddit.com/r/datascience/comments/1c5ufgp/anyone_out_here_freelancing/,0,False,False,False,False
+1c5nx1x,Thinktanks - Thoughts and preparation?,"Hey nerds,
+
+I'm interviewing for some roles at RAND (Technical Analyst) and Institute for Defense Analyses (DS Fellowship). I'm wondering if anyone else has experience with these or similar institutions and has any wisdom. So far it's been chill, but I haven't gotten a good read on what the process is like; how long, tech interviews, case-studies etc. 
+
+If you have experience, I'd love to hear it.
+
+Thanks!",0,2,Biologistathome,2024-04-16 18:47:15,https://www.reddit.com/r/datascience/comments/1c5nx1x/thinktanks_thoughts_and_preparation/,0,False,False,True,False
+1c59ru9,Help in creating a chatbot,"I want to create a chatbot that can fetch data from database and answer questions.
+
+For example, I have a database with details of employees. Now If i ask chatbot how many people join after January 2024 that chatbot will return answer based on data stored in database.
+
+How to achieve this and what approch to use?",0,10,ssiddharth408,2024-04-16 07:04:09,https://www.reddit.com/r/datascience/comments/1c59ru9/help_in_creating_a_chatbot/,0,False,False,False,False
+1c5hbjp,Validation set,"Can someone explain the validation set? In a professional way like market-wise, how can it be a game changer? My whole knowledge about it is to plot it to check the model's performance and for early stopping, but that's it.",0,19,Top-Blueberry-6128,2024-04-16 14:21:12,https://www.reddit.com/r/datascience/comments/1c5hbjp/validation_set/,0,False,False,False,False

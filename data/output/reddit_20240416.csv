@@ -1,0 +1,77 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1c4nwy0,WTF? I'm tired of this crap,"Yes, ""data professional"" means nothing so I shouldn't take this seriously.
+
+But if by chance it means ""data scientist""... why this people are purposely lying? You cannot be a data scientist ""without programming"". Plain and simple.
+
+Programming is not something ""that helps"" or that ""makes you a nerd"" (sic), it's basically the core job of a data scientist. Without programming, what do you do? Stare at the data? Attempting linear regression in Excel? Creating pie charts?
+
+Yes, the whole thing can be dismisses by the fact that ""data professional"" means nothing, so of course you don't need programming for a position that doesn't exists, but if she mean by chance ""data scientist"" than there's no way you can avoid programming.",387,116,MorningDarkMountain,2024-04-15 14:41:20,https://i.redd.it/w31p6ytmnnuc1.jpeg,0,False,False,False,False
+1c4oyx9,Excel Monkey,"How much in your daily career life do you feel like an Excel Monkey where you spend most of your work load in Excel?
+
+I’m currently in a modeling role in the insurance industry looking to see if it is time to branch out to other industries or if my expectations are too high. 
+",38,35,Adventurous_Ad8127,2024-04-15 15:25:07,https://www.reddit.com/r/datascience/comments/1c4oyx9/excel_monkey/,0,False,False,False,False
+1c49ugr,"If you work in a unique domain, what is it and how did you get into it?","Most of the domains I see for job listings are healthcare, products, retail, fraud, supply chain, etc. I'm still early career and my degree is in sociology and data, which has helped me work mostly with non-profits. I wanted to hear about what other domains that other DA/DS are working in which fall outside the majority.",23,41,lemonbottles_89,2024-04-15 01:20:12,https://www.reddit.com/r/datascience/comments/1c49ugr/if_you_work_in_a_unique_domain_what_is_it_and_how/,0,False,False,False,False
+1c4m8q6,How to negotiate salary when doing an internal move?,"Hi all,
+
+Basically the title — any tips on negotiating the salary when doing an internal move, and the hiring manager / HR most certainly know at least my pay bracket, if not the exact salary I have right now?
+
+I only know some very rough numbers from colleagues and I tend to underestimate their budget / undersell when negotiating.
+
+Thanks! 🙏 ",15,16,Aromatic-Box683,2024-04-15 13:29:20,https://www.reddit.com/r/datascience/comments/1c4m8q6/how_to_negotiate_salary_when_doing_an_internal/,0,False,False,False,False
+1c4r5sf,Does anyone use this potential alternative to gradient descent?,"&#x200B;
+
+[ Step 1: there is some loss\/cost function but we don't know its optimal parameters ](https://preview.redd.it/vo2fb58taouc1.png?width=723&format=png&auto=webp&s=d700eadb8435238bcf549c71cf7974d0d1d27cc1)
+
+&#x200B;
+
+[ Step 2: solve for the derivatives at random points for the parameters and obtain tangent vectors for those points. ](https://preview.redd.it/td8kuu9waouc1.png?width=619&format=png&auto=webp&s=5e0d879dda0ebb502895350fc23a302393268f74)
+
+&#x200B;
+
+[ Step 3: Solve for where the vectors \\""cross\\"" \(when stretched\) in terms of the parameters, and plug those parameters into the loss function. If it seems to be a good place, you could try gradient descent\/back-prop starting from here. The vectors may not intersect at any point with respect to all parameters, but as long as they intersect with respect to enough of them you could try that coordinate. If not you can repeat the process until you find some tangent vectors that intersect with respect to enough parameters. ](https://preview.redd.it/ozkafxn0bouc1.png?width=616&format=png&auto=webp&s=81ba479a32c6572f6da6701d3d55d32e223d2507)
+
+ I chose an example in 3 dimensions for obvious reasons. This might not run so fast or be so easy in higher dimensions. Curious to hear what people think though. And maybe this approach already exists? ",5,9,Will_Tomos_Edwards,2024-04-15 16:53:52,https://www.reddit.com/r/datascience/comments/1c4r5sf/does_anyone_use_this_potential_alternative_to/,0,False,False,False,False
+1c4uvfr,"Real-time hypothesis testing, premature stopping ","Say I want to start offering a discount for shopping in my store. I want to run a test to see if it's a cost-effective idea. I demand an improvement of $d in average sale $s to compensate for the cost of the discount. I start offering the discount randomly to every second customer. Given the average traffic in my store, I determine I should be running the experiment for at least 4 months to determine the true effect equal to d at alpha 0.05 with 0.8 power. 
+
+
+1. Should my hypothesis be: 
+
+H0: s_exp - s_ctrl < d
+
+And then if I reject it means there's evidence the discount is cost effective (and so I start offering the discount to everyone) 
+
+Or 
+
+H0: s_exp - s_ctrl > d 
+
+And then if I don't reject it means there's *no* evidence the discount is *not* cost effective (and so i keep offering the discount to everyone or at least to half of the clients to keep the test going)
+
+
+2. What should I do if after four months, my test is not conclusive? All in all, I don't want to miss the opportunity to increase the profit margin, even if true effect is 1.01*d, right above the cost-effectiveness threshold. As opposed to pharmacology, there's no point in being too conservative in making business right? Can I keep running the test and avoid p-hacking?
+
+
+3. I keep monitoring the average sales daily, to make sure the test is running well. When can I stop the experiment before preassumed amount of sample is collected, because the experimental group is performing very well or very bad and it seems I surely have enough evidence to decide now? How to avoid p-hacking with such early stopping?
+
+
+Bonus 1: say I know a lot about my clients: salary, height, personality. How to keep refining what discount to offer based on individual characteristics? Maybe men taller than 2 meters should optimally receive two times higher discount for some unknown reasons?
+
+
+Bonus 2: would bayesian hypothesis testing be better-suited in this setting? Why?
+",5,6,Ciasteczi,2024-04-15 19:19:48,https://www.reddit.com/r/datascience/comments/1c4uvfr/realtime_hypothesis_testing_premature_stopping/,0,False,False,False,False
+1c4kstx,Best framework for creating an ML based website/service for a data scientist,"I'm a data scientist who doesn't really know web development. If I tune some models and create something that I want to surface to a user, what options do I have? Also, what if I'd like to charge for it?
+
+I'm already quite familiar with Streamlit. I've seen that there's a new framework called Taipy that looks interesting but I'm not sure if it can handle subscriptions.
+
+Any suggestions or personal experience with trying to do the same?",4,5,Param-eter,2024-04-15 12:20:10,https://www.reddit.com/r/datascience/comments/1c4kstx/best_framework_for_creating_an_ml_based/,0,False,False,False,False
+1c4uibm,Self serve dashboard adoption,"I’m trying to build a dashboard- PowerBI/Tableau which would serve as a one stop solution to most of the ad hoc analytics request that our stakeholders have. But in the past we observed that the adoption of such dashboards by them is not that great. Did anyone in the sub try this initiative, and what are the important factors to keep in mind before you go into such venture.",2,2,satchelbrothers78,2024-04-15 19:05:39,https://www.reddit.com/r/datascience/comments/1c4uibm/self_serve_dashboard_adoption/,0,False,False,False,False
+1c4cxoj,"Weekly Entering & Transitioning - Thread 15 Apr, 2024 - 22 Apr, 2024"," 
+
+Welcome to this week's entering & transitioning thread! This thread is for any questions about getting started, studying, or transitioning into the data science field. Topics include:
+
+* Learning resources (e.g. books, tutorials, videos)
+* Traditional education (e.g. schools, degrees, electives)
+* Alternative education (e.g. online courses, bootcamps)
+* Job search questions (e.g. resumes, applying, career prospects)
+* Elementary questions (e.g. where to start, what next)
+
+While you wait for answers from the community, check out the [FAQ](https://www.reddit.com/r/datascience/wiki/frequently-asked-questions) and Resources pages on our wiki. You can also search for answers in [past weekly threads](https://www.reddit.com/r/datascience/search?q=weekly%20thread&restrict_sr=1&sort=new).",2,8,AutoModerator,2024-04-15 04:01:21,https://www.reddit.com/r/datascience/comments/1c4cxoj/weekly_entering_transitioning_thread_15_apr_2024/,1,False,False,False,True

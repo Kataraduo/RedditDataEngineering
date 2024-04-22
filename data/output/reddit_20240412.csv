@@ -1,0 +1,126 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1c1vciv,What realistically will be automated in the next 5 years for data scientists / ML engineers? Plus would love some career advice,"Recently I’ve been job hunting and have hit the sad realization that I’ll have to take a salary cut if I want to work for a company with good ML practices. I have a lot of student loans from master’s program. 
+
+I’ve been trying to keep up with LLM coding automations and software automators. It’s all beginning to seriously make me anxious but I think the probability I’m overreacting is at least 50%.
+
+How much of a data scientist’s job do you think will be completely automated? Do you think we (recent master’s graduates with lots of debt) made the wrong choice? What areas can I strengthen to begin to future proof myself? Should I just chill out and just be ready to learn and adapt continuously?
+
+My thinking is that I want to do more ML engineering or ML infra engineering even though right now I’m just a data scientist. It feels like this career path will pay off my loans, have some security, and also is better than dealing with business stakeholders sometimes. 
+
+I am considering taking a bad pay cut to do more sophisticated ML where I’ll be building more scalable models and dealing with models in production. My thought process is this is the path to ML engineer. However my anxiety is terrifying me. Should I just not take the pay cut and continue to pay off loans + wait for a new opportunity? I fear the longer I wait, the worse my skills at a bad company become. Also would rather take a pay hit now and not in 1 year.
+
+ My fear with taking pay cut is that I’ll be broke for a year and then in another year automations and coding bots might really become sophisticated. 
+
+Anyways, if anyone’s knowledgeable would love to chat. This market and my loans are the most depressing realization ever
+
+",129,99,driggsky,2024-04-12 00:33:15,https://www.reddit.com/r/datascience/comments/1c1vciv/what_realistically_will_be_automated_in_the_next/,0,False,False,False,False
+1c1y7yu,Am I glorifying ML research roles? ,"I think it’s safe to say I’ve constantly been “fantasizing” about getting a job as a ML researcher. Not traditional data science. I’m talking one of the jobs that involve cutting edge modeling like https://www.microsoft.com/en-us/research/careers/.
+
+To me it sounds like the dream DS job. Read papers on ML, implement them in software, and get paid a lot to do it. 
+
+The thing is though, with an MS in Stats it’s safe to say it’s nearly impossible for me to land any kind of research data scientist job because almost all the job reqs require a PhD. I just wish there wasn’t a stigma associated with MS graduates. We know stuff too. Just because we have an MS and not a PhD doesn’t make us any less qualified. Is there anyone here who is in a data science research role without a PhD?
+
+Am I glorifying these roles? 
+
+",41,123,AdFew4357,2024-04-12 02:47:34,https://www.reddit.com/r/datascience/comments/1c1y7yu/am_i_glorifying_ml_research_roles/,0,False,False,False,False
+1c1vo54,How do you deal with predicting purchases where the purchases are extremely imbalanced and the data is extremely sparse. ,"Dataset has 300 million rows. Only 1 million have purchases. So the dataset is extremely sparse. 
+
+I’m taking the one million purchases and taking a random sample of one million non purchases and training my model on that. 
+
+Is this approach feasible? Are there any other approaches people would recommend. Any papers on this? 
+
+Trying to predict conversions on an ads platform. ",18,21,Terrible-Hamster-342,2024-04-12 00:47:46,https://www.reddit.com/r/datascience/comments/1c1vo54/how_do_you_deal_with_predicting_purchases_where/,0,False,False,False,False
+1c1owjv,Ibis/dbplyr equivalent now on julia as TidierDB.jl,"I know a lot of ppl here dont love/heavily use julia, but I thought I'd share this package i came across here incase some people find it interesting/useful. 
+
+[TidierDB.jl](https://github.com/TidierOrg/TidierDB.jl) seems to be a reimplementation of dbplyr and inspired by ibis as well. It gives users the [TidierData.jl](https://github.com/TidierOrg/TidierData.jl) (aka dplyr/tidyr) syntax for 6 backends (duckdb is the default, but there are others ie mysql, mssql, postgres, clickhouse etc). 
+
+Interestingly, it seems that julia is having [consistent growth](https://discourse.julialang.org/t/some-julia-growth-usage-stats/112547), and they have  [native quarto](https://discourse.julialang.org/t/ann-native-julia-engine-for-quarto-using-quartonotebookrunner-jl/112753) support now. Who knows where julia will be in 10 yrs.. mb itll get to 1% on the tiobe index ",19,8,Suspicious-Oil6672,2024-04-11 20:10:53,https://www.reddit.com/r/datascience/comments/1c1owjv/ibisdbplyr_equivalent_now_on_julia_as_tidierdbjl/,0,False,False,False,False
+1c25koq,What's next for the quintessential DS role?,"This post is multiple questions wrapped into a single topic kind of thing which is why I thought best to keep it as an open-ended discussion.
+
+  
+**Q1.** When I see recent DS job postings a majority now have these two added requirements: 1. Some knowledge of LLMs. 2. Experience in NLP. I'm not sure if this is just biased based on what LinkedIn algorithm is showing me. But is this the direction that the average DS role is headed? I've always considered myself as a jack of all trades, flexible DS, but with no expertise is any technical vertical. Is the demand for the general data scientist role diminishing?  
+  
+**Q2.** In my 5 years of experience as a DS I've worked on descriptive analytics, predictive modelling, dash-boarding in consulting and product alike. Now, 5 years isn't that much time, but it's not too short either. I'm now finding myself working on similar types of problems (churn, risk, forecasting) and similar tools and workflows. This is not a complaint by any means, it is expected. But this got me thinking... Are there new tools and workflows out there that might enhance my current working setup?  For example: I sometimes find myself struggling to manage code for different variations of datasets used for different model versions. After loads of experimentation my directory is a mess. I'd love to know tools and workflows you use for typical DS problems.  
+  
+Here's mine:  
+code/notebook editor: VScode  
+versioning: git/github  
+archiving & comparing models: MLFlow \[local only within project context\]  
+hyperparameter optimisation: Optuna  
+inference endpoint deployment: fastapi  
+convey results and progress: good ol' excel and powerpoint :p
+
+",12,9,CrypticTac,2024-04-12 10:17:26,https://www.reddit.com/r/datascience/comments/1c25koq/whats_next_for_the_quintessential_ds_role/,0,False,False,False,False
+1c1yc8i,Advice on what types of entry-level roles to seek,"Hello! 
+
+I'm looking for some career advice on what types of roles to seek, resume help, and how to get feedback on an NLP Developer technical project that I completed. 
+
+A little about me: I have a B.Sc. in CS, a data science internship (data visualization, data analysis, and LLM experience), and research experience (published in JMIR). I've been looking for work, full-time, for about a month and a half now, 170 applications sent, and minimal responses so far. **My end goal is to find a DS/ML role**. Something that will allow me to learn more technical skills in ML. I am primarily seeking remote roles in Canada and the United States, but am open to hybrid in my location. At some point, I plan on going back to school to receive an master's in CS specializing in ML, but at the moment, I'm looking to get more work experience.
+
+The only response I've received so far is from an international company as NLP developer. I wrote a technical project for them, but sadly did not receive the role or any feedback on my submission. I have posted two examples of resumes that I might submit. I tailor my resume for each job, which usually means using an ATS checker and changing the summary/skills section to match the verbiage of the job. I'm looking for some advice:
+
+**1)** At the moment, I'm casting a wide net in terms of roles. I've been applying to entry-level DA/DS/DE and ML related roles. Recently, I've focused a bit more on the DA roles, as I generally have all the skills they are asking for, and my data science internship involved a lot of dashboard building. That said, I am most interested in roles that involve ML (especially LLM and NLP).
+
+I sometimes feel as though I'm selling myself short by applying so much to data analytics roles when I really want ML. **Should I continue to cast a wide net in terms of roles, or would it be better to focus more time on applying to only DS/ML roles?**
+
+I should mention, time is of the essence, and work experience is so valuable in this market, so I would rather start working as a data analyst now than hold out for another year to find an ML role.
+
+**2)** Related to Q1. I'm currently working on the Google Data Analytics Profesional cert, which I'm finding boring and easy. At this point, I will finish it, but I'm wondering what certs to take next. I could do more data analytics certs, but I was considering doing Andrew Ng's ML and DL certs on Coursea. **Would you recommend these certs, or any comments on other certs to take?**
+
+**3)** **Do you have any suggestions on my resumes?** I know that it's a bit verbose in the skills section, but I'm trying to ensure that I make it through the initial screening if they are using AI.
+
+**4)** **Where can I post my technical project for the NLP developer position that I applied to?** I would love to get some feedback on my submission, and I think it could be helpful for other Redditors looking for the same types of roles.
+
+Thank you! ",5,11,SneakyPickle_69,2024-04-12 02:53:09,https://www.reddit.com/r/datascience/comments/1c1yc8i/advice_on_what_types_of_entrylevel_roles_to_seek/,0,False,False,False,False
+1c1rlkp,Learning new skills Advice for down time?,"I would really enjoy learning and picking up new skills.  Typically I work in SQl, power bi , but I really want to work on my Python and data analysis skills on the data science level. I do use Python but just the basic pandas and group by. 
+
+ What can I do during working hours during my downtime for this? Typically I just maintain reports and that’s about it but I want to be proactive and at least learn some new skills.  Any advice appreciated!",5,1,samuel_clemens89,2024-04-11 21:57:06,https://www.reddit.com/r/datascience/comments/1c1rlkp/learning_new_skills_advice_for_down_time/,0,False,False,False,False
+1c1y109,The Mechanisms of LLM Prompting and Next Word Prediction, Is a prompt always necessary for a large language model to generate a response? What processes occur behind the scenes when a prompt is given? How is prompting connected to the next word prediction in LLMs? ,3,1,Excellent_Cost170,2024-04-12 02:37:57,https://www.reddit.com/r/datascience/comments/1c1y109/the_mechanisms_of_llm_prompting_and_next_word/,0,False,False,False,False
+1c29ri7,Retrieval-Augmented Language Modeling (REALM),"I just came upon (what I think is) the original REALM paper, [“Retrieval-Augmented Language Model Pre-Training”](https://arxiv.org/abs/2002.08909). Really interesting idea, but there are some key details that escaped me regarding the role of the retriever. I was hoping someone here could set me straight:
+
+1. **First and most critically, is retrieval-augmentation only relevant for generative models?** You hear a lot about RAG, but couldn’t there also be like RAU? Like in encoding some piece of text X for a downstream non-generative task Y, the encoder has access to a knowledge store from which relevant information is identified, retrieved, and then included in the embedding process to refine the model’s representation of the original text X? Conceptually this makes sense to me, and it seems to be what the REALM paper did (where the task Y was QA), but I can’t find any other examples online of this kind of thing. Retrieval-augmentation only ever seems to be applied to generative tasks. So yeah, is that always the case, or can RAU also exist?
+
+2. **If a language model is trained using retrieval augmentation, that would mean the retriever is part of the model architecture, right?** In other words, come inference time, there must always be some retrieval going on, which further implies that the knowledge store from which documents are retrieved must also always exist, right? Or is all the machinery around the retrieval piece only an artifact of training and can be dropped after learning is done?
+
+3. **Is the primary benefit of REALM that it allows for smaller model?** The rationale behind this question: Without the retrieval step, the 100% of the model’s latent knowledge must be contained within the weights of the attention mechanism (I think). For foundation models which are expected to know basically everything, that requires a huge number of weights. However if the model can inject context into the representation via some other mechanism, such as retrieval augmentation, the rest of the model after retrieval (e.g., the attention mechanism) has less work to do and can be smaller/simpler. Have I understand the big idea here?",3,5,synthphreak,2024-04-12 13:54:48,https://www.reddit.com/r/datascience/comments/1c29ri7/retrievalaugmented_language_modeling_realm/,1,False,False,False,False
+1c28knv,Advice and Resources Needed for Project on Auditing and Reversing LLMs employing coordinate ascent,"This may not be the right place to ask but really need advice.  
+
+I am a college  student and I'm working on a project for Auditing LLMs by reversing an LLM and looking for prompt - output pairs. I want to know which model would suit my purpose . I wanted to evaluate pretrained models like LLaMA , Mistral etc . I found a research paper doing experiments on GPT -2 and Gpt-j.  For the academic purposes i intend to extend the experiment to other llms like Mistral, LLaMA ,  somw suggestions are welcome .
+
+I am a beginner here and I have not worked on LLMs for prompting or optimization problems. I am really not sure how to progress and would appreciate any resources for performing experiments on LLMs.  
+
+Also any concepts that i should know of ? .
+Also im curious how do you usually run and train such models . Especially when there are constraints in computational power. 
+
+ What do you usually when access to server / gpu is limited . Any resources where it is easy to get GPU for distribted parallel computing that are easy to obtain? Other than google colab.  ",4,1,Mayukhsen1301,2024-04-12 13:01:32,https://www.reddit.com/r/datascience/comments/1c28knv/advice_and_resources_needed_for_project_on/,0,False,False,False,False
+1c1uafg,Contracting while looking for FTE - bad idea?,"I moved from Europe to the US, and am currently unemployed while looking for a job. I don't require sponsorship and have 5yoe as a data scientist, but it's still difficult in this market.  
+
+
+I've been considering recently to take a lower-paying contract role (the ones I've been contacted about  are typically about $50-$80/h)  to have some income and give myself some more time to find a solid full time position. And then resign from the contract job when that happens, even if I've only been in that position for a couple of weeks.  
+
+
+Aside from burning bridges with the contract employer, is this a bad idea? ",2,3,EvilGarlicFarts,2024-04-11 23:47:02,https://www.reddit.com/r/datascience/comments/1c1uafg/contracting_while_looking_for_fte_bad_idea/,0,False,False,False,False
+1c2h46n,Best free sources on machine learning?,"Hi
+
+I'm a college student with a lot of free time so I'm thinking about learning useful stuff. 
+
+&#x200B;
+
+Do you recommend a specific guide for ml? It'd be better if it is free because I don't have a lot of spare money ",4,4,Aston28,2024-04-12 18:54:40,https://www.reddit.com/r/datascience/comments/1c2h46n/best_free_sources_on_machine_learning/,0,False,False,False,False
+1c1v5vc,Career roadmap and advice please. Transitioning from Academia to DS.,"Hello!
+
+I'm 46, Masters in Operations Research,  BS in Pure and Applied Math. I have been focusing on an academic career for a while, but lost my full-time professorship because I had problems with grading and meeting deadlines (I suffer from clinical depression). I am currently an adjunct math professor and cannot pay my bills. I love Applied Mathematics:, MDP, Game Theory, Simulation and I want to transition into some kind of Data Science field where I can learn more and utilize knowledge I have from grad school and more. I am not particularly interested in Finance or Medicine, and would find it much more interesting to work for physicists, chemists, biologists, economists, or other scientists. I am also very concerned about being able to acquire a career of this sort (and keeping it considering my depression). 
+
+My current plan is to finish 4 Coursera specializations: Python, Data Science, Data Science with R, Intermediate Data Science; 3 textbooks: Probability and Statistics for Engineers (mostly a review, but my education heavily learns toward Modeling and Probability Theory rather than Statistics), Linear Models with R, and Acing the Data Science Interview. After doing a few projects and developing a portfolio, I hope that I can find an entry level position. Then, over the next 2-3 years I would like to study Machine Learning and finding the intersection with that and my OR background --Hopefully such a field exists. At this time I may get a second masters or maybe finish my PhD. Finally, I would hope to have a career when I turn 50.
+
+I understand my depression is a big problem, but I am not going to just go on welfare and eek out an existence for the rest of my life. If you will, please look past this issue for the moment.
+
+My current questions are: 
+1) What is your opinion of my plan? Is it viable? What roadblocks might I encounter?
+2) What job titles should I apply for as an entry-level data scientist? Data Analyst, Data Scientist, Data Engineer, MLOps, MLE.... I really don't know where I would fit.
+3) Although I want to work for scientists, is this domain viable? Should I apply for my common domains like FAANG, Finance, or Medicine?
+4) Ultimately, what job title should I be aiming for considering my interests.
+
+Lastly, any other advice would be greatly appreciated!
+
+Thank you!",1,7,Bobson1729,2024-04-12 00:24:55,https://www.reddit.com/r/datascience/comments/1c1v5vc/career_roadmap_and_advice_please_transitioning/,0,False,False,False,False
